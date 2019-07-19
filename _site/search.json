@@ -1,0 +1,49 @@
+[
+
+  
+    {
+      "title"			: "oka-landcover",
+      "link"			: "http://localhost:4000/oka-landcover/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Karttur GitHub repository overview",
+      "link"			: "http://localhost:4000/overview/overview-main/",
+      "excerpt"		: "Overview of Karttur´s GitHub site for blogs, articles and manuals"
+    }
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    ,{
+      "title"			: "About Karttur",
+      "link"			: "http://localhost:4000/about/",
+      "excerpt"		: "Karttur is a private research company in Stockholm, Sweden"
+    }
+  
+
+  
+
+  
+
+  
+
+  
+
+]

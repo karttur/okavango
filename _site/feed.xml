@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-18T10:02:09+02:00</updated><id>http://localhost:4000/</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">oka-landcover</title><link href="http://localhost:4000/oka-landcover/" rel="alternate" type="text/html" title="oka-landcover" /><published>2019-07-18T10:02:00+02:00</published><updated>2019-07-18T10:02:00+02:00</updated><id>http://localhost:4000/oka-landcover</id><content type="html" xml:base="http://localhost:4000/oka-landcover/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Karttur GitHub repository overview</title><link href="http://localhost:4000/overview/overview-main/" rel="alternate" type="text/html" title="Karttur GitHub repository overview" /><published>2018-01-09T11:27:00+01:00</published><updated>2018-01-09T11:27:00+01:00</updated><id>http://localhost:4000/overview/overview-main</id><content type="html" xml:base="http://localhost:4000/overview/overview-main/">&lt;p&gt;&lt;strong&gt;Contents&lt;/strong&gt;
+- &lt;a href=&quot;#scaffolding&quot;&gt;Scaffolding&lt;/a&gt;
+- &lt;a href=&quot;#repositories&quot;&gt;Repositories&lt;/a&gt;
+  - &lt;a href=&quot;#overview&quot;&gt;overview&lt;/a&gt;
+  - &lt;a href=&quot;#setup-blog&quot;&gt;setup-blog&lt;/a&gt;
+  - &lt;a href=&quot;#setup-github&quot;&gt;setup-github&lt;/a&gt;
+  - &lt;a href=&quot;#setup-theme-blog&quot;&gt;setup-theme-blog&lt;/a&gt;
+  - &lt;a href=&quot;#setup-ide&quot;&gt;setup-ide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog is an attempt to create an overview of the contents in Karttur’s GitHub site. The site is organized in repositories, with each repository containing a blog, and some containing program codes. You can use the top menu to get to the different repositories, or the links in the descriptions of the content of each repository below.&lt;/p&gt;
+
+&lt;h2 id=&quot;scaffolding&quot;&gt;Scaffolding&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;karttur/
+├── overview/
+|    └── blog/
+|        └──                          &lt;span class=&quot;c&quot;&gt;# empty&lt;/span&gt;
+|    └── overview/
+|        └── overview-main            &lt;span class=&quot;c&quot;&gt;# this page&lt;/span&gt;
+├── setup-blog/
+|    └── Set up blog tools            &lt;span class=&quot;c&quot;&gt;# tutorial on Jekyll and Atom&lt;/span&gt;
+├── setup-github/
+|    └── Set up GitHub                &lt;span class=&quot;c&quot;&gt;# tutorial on markdown and GitHub&lt;/span&gt;
+├── setup-theme-blog/
+|    └── blog/
+|        └── hide-show-div            &lt;span class=&quot;c&quot;&gt;# Hide/show code with javascript&lt;/span&gt;
+|    └── setup-blog/
+|        ├── Set up Jekyll theme blog &lt;span class=&quot;c&quot;&gt;# Select, edit and publish Jekyll Theme&lt;/span&gt;
+|        └── Theme Setup              &lt;span class=&quot;c&quot;&gt;# The So Simple Theme instructions&lt;/span&gt;
+├── setup-ide/
+|    └── blog/
+|        └──                          &lt;span class=&quot;c&quot;&gt;# empty&lt;/span&gt;
+|    └── ide-setup/     
+|        ├── Install Anaconda         &lt;span class=&quot;c&quot;&gt;# Install Anaconda Python package on macOS&lt;/span&gt;
+|        ├── Setup Eclipse with PyDev &lt;span class=&quot;c&quot;&gt;# Install Eclipse and set up with Anaconda&lt;/span&gt;
+|        ├── Install PostgreSQL       &lt;span class=&quot;c&quot;&gt;# Install PostgreSQL and PostGIG on macOS&lt;/span&gt;
+|        ├── Connect PostgreSQL       &lt;span class=&quot;c&quot;&gt;# psycopg2 connect PostgreSQL and Python  &lt;/span&gt;
+|        ├── PostgreSQL xml setup     &lt;span class=&quot;c&quot;&gt;# Setup db schema &amp;amp; tables using xml&lt;/span&gt;
+|        └── GDAL, QGIS and GRASS     &lt;span class=&quot;c&quot;&gt;# Install GDAL, QGIS and GRASS on macOS&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;repositories&quot;&gt;Repositories&lt;/h2&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;overview&lt;/h3&gt;
+
+&lt;p&gt;The overview repository only contains web-pages.&lt;/p&gt;
+
+&lt;h3 id=&quot;setup-blog&quot;&gt;setup-blog&lt;/h3&gt;
+
+&lt;p&gt;The repository &lt;a href=&quot;https://karttur.github.io/setup-blog/&quot;&gt;Setup-blog&lt;/a&gt; contains a manual on how that very page was created by using Jekyll and the default Theme minima. The page also introduces using the text editor &lt;span class=&quot;app&quot;&gt;Atom&lt;/span&gt; for editing markdown files. The GitHub repository contains the full code under the branch ‘gh-pages’. It might be useful to follow the manual to set up your very first Jekyll blog.&lt;/p&gt;
+
+&lt;p&gt;Url links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-blog/&quot;&gt;front web page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-blog/tree/gh-pages&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;setup-github&quot;&gt;setup-github&lt;/h3&gt;
+
+&lt;p&gt;Also the repository &lt;a href=&quot;https://karttur.github.io/setup-github/&quot;&gt;Setup-github&lt;/a&gt; contains a single web-page created using Jekyll, but without any template Theme. The page is an introductory manual on how to publish a web site with blogs on GitHub.com using &lt;span class=&quot;app&quot;&gt;GitHub desktop.app&lt;/span&gt;. The GitHub repository contains the full code under the branch ‘gh-pages’. It might be useful for learning a bit about markdown and publishing Jekyll generated web-pages on GitHub.&lt;/p&gt;
+
+&lt;p&gt;Url links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-github/&quot;&gt;front web-page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-github/tree/gh-pages&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;setup-theme-blog&quot;&gt;setup-theme-blog&lt;/h3&gt;
+
+&lt;p&gt;After having tried out creating web-pages using Jekyll, learnt a bit about markdown and editing the markdown coding system in the text editor Atom, I selected an Open Source Jekyll Theme (So Simple by Michael Rose) as the template for continuing publishing my articles and blogs. The repository &lt;a href=&quot;https://karttur.github.io/setup-theme-blog/&quot;&gt;setup-theme-blog&lt;/a&gt; contains my step-by-step manual on how I setup the So Simple Theme. The blog contains additional tweaking I have done to the So Simple Theme to make it fit my needs.&lt;/p&gt;
+
+&lt;p&gt;Url links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-theme-blog/&quot;&gt;front web-page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-theme-blog/tree/gh-pages&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;setup-ide&quot;&gt;setup-ide&lt;/h3&gt;
+
+&lt;p&gt;The core of the Karttur site is about map making and spatial data processing, especially using satellite images. The repository &lt;a href=&quot;https://karttur.github.io/setup-ide/&quot;&gt;setup-ide&lt;/a&gt; (ide stands for Integrated Development Environment) covers the installations and setups to create the framework needed for the kind of map making that Karttur does.&lt;/p&gt;
+
+&lt;p&gt;Url links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/&quot;&gt;front web-page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-ide/tree/gh-pages&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Direct links to the installation and setup instructions of different components (primarily for macOS):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-gis/&quot;&gt;GIS&lt;/a&gt; (Install GDAL, QGIS and GRASS)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-anaconda/&quot;&gt;Anaconda&lt;/a&gt; (Install Ananconda Python Interpreter)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-eclipse/&quot;&gt;Eclipse&lt;/a&gt; (Install IDE for Python)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-postgres/&quot;&gt;PostgreSQL&lt;/a&gt; (Install PostgreSQL with PostGIS database)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/connect-with-psycopg2/&quot;&gt;psycopg2&lt;/a&gt; (connect Python and Postgres using psycopg2)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/setup-db-karttur/&quot;&gt;db architecture&lt;/a&gt; (create db architecture [schemas and tables] using xml)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Blog setup" /><category term="IDE setup" /><category term="DB setup" /><category term="GIS installations" /><category term="macOS" /><summary type="html">Overview of Karttur´s GitHub site for blogs, articles and manuals</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry></feed>

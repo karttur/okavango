@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-19T17:48:35+02:00</updated><id>http://localhost:4000/</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html"></title><link href="http://localhost:4000/2019-07-18-oka-landcover/" rel="alternate" type="text/html" title="" /><published>2019-07-19T17:48:35+02:00</published><updated>2019-07-19T17:48:35+02:00</updated><id>http://localhost:4000/2019-07-18-oka-landcover</id><content type="html" xml:base="http://localhost:4000/2019-07-18-oka-landcover/">&lt;p&gt;This post summarizes the ecoregion map over the Okavango Delta, Botswana that I did back in 1999 together with Jenny McCarty (then a PhD student) and Terence McCarthy (professor at University of the WItwatersrand [Wits] and leader of the Okavango Research Group at Wits):&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-20T12:28:27+02:00</updated><id>http://localhost:4000/</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Landcover</title><link href="http://localhost:4000/blog/oka-landcover/" rel="alternate" type="text/html" title="Landcover" /><published>2019-07-18T11:27:00+02:00</published><updated>2019-07-18T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-landcover</id><content type="html" xml:base="http://localhost:4000/blog/oka-landcover/">&lt;p&gt;This post summarizes the ecoregion map over the Okavango Delta, Botswana that I did back in 1999 together with Jenny McCarty (then a PhD student) and Terence McCarthy (professor at University of the WItwatersrand [Wits] and leader of the Okavango Research Group at Wits):&lt;/p&gt;
 
 &lt;h3 id=&quot;ecoregion-classification-in-the-okavango-delta-botswana-from-multitemporal-remote-sensing&quot;&gt;Ecoregion classification in the Okavango Delta, Botswana from multitemporal remote sensing&lt;/h3&gt;
 
@@ -29,121 +29,67 @@ The final map presented contained 12 ecoregions. This map was simplified into ve
 
 &lt;h1 id=&quot;acknowledgement&quot;&gt;Acknowledgement&lt;/h1&gt;
 
-&lt;p&gt;The classification work was done as part on an international co-operation within the Okavango Research Group headed by prof. T.S.McCarthy, Department of Geology, Wits University. Financing came through a scholarship from the The Swedish Foundation for International Cooperation in Research and Higher Education for doctoral student Jenny McCarthy and as a post doctoral scholarship financed by the Swedish Royal Academy of Sciences, for the author.&lt;/p&gt;</content><author><name></name></author></entry><entry><title type="html"></title><link href="http://localhost:4000/2019-07-17-oka-pleasing/" rel="alternate" type="text/html" title="" /><published>2019-07-19T17:48:35+02:00</published><updated>2019-07-19T17:48:35+02:00</updated><id>http://localhost:4000/2019-07-17-oka-pleasing</id><content type="html" xml:base="http://localhost:4000/2019-07-17-oka-pleasing/">&lt;p&gt;In this post I briefly discuss the data I used when studying the Okavango Delta, Botswana as a Post Doc with University of the Witwatersrand 1999 to 2001.&lt;/p&gt;
+&lt;p&gt;The classification work was done as part on an international co-operation within the Okavango Research Group headed by prof. T.S.McCarthy, Department of Geology, Wits University. Financing came through a scholarship from the The Swedish Foundation for International Cooperation in Research and Higher Education for doctoral student Jenny McCarthy and as a post doctoral scholarship financed by the Swedish Royal Academy of Sciences, for the author.&lt;/p&gt;</content><author><name></name></author><category term="okavango" /><category term="landcover" /><summary type="html">Landcover classification of the Okavango Delta, Botswana</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry><entry><title type="html">Satellite image data</title><link href="http://localhost:4000/blog/oka-pleasing/" rel="alternate" type="text/html" title="Satellite image data" /><published>2019-07-17T11:27:00+02:00</published><updated>2019-07-17T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-pleasing</id><content type="html" xml:base="http://localhost:4000/blog/oka-pleasing/">&lt;style&gt;
+table {
+    width:30%;
+}
+&lt;/style&gt;
+
+&lt;p&gt;In this post I briefly discuss the satellite image data I used when studying the Okavango Delta, Botswana as a postdoc with University of the Witwatersrand 1999 to 2001.&lt;/p&gt;
 
 &lt;h2 id=&quot;landsat-images&quot;&gt;Landsat images&lt;/h2&gt;
 
-&lt;p&gt;At the time of my Post Doc, 1991 - 2002, Landsat images were not available for free but carried a rather hefty price tag. We could not afford to purchase any images. Through contacts with Anglo American my supervisor, Professor T.S. McCarthy, we got a set of cloud free Landsat Thematic Mapper (TM) images that covered the Okavango, table 1 and figure 1.&lt;/p&gt;
+&lt;p&gt;At the time of my postdoc, Landsat images were not available for free but carried a rather hefty price tag. (The free and open data policy for Landsat images came into force in 2008). We could not afford to purchase any images. Through contacts with Anglo American my supervisor, Professor T.S. McCarthy, we got a set of cloud free Landsat Thematic Mapper (TM) images that covered the Okavango, table 1 and figure 1.&lt;/p&gt;
 
-&lt;p&gt;scene		date of acquisiton
-174_073		Aug 1st 1994
-174_074		Aug 1st 1994
-175_073		July 7th 1994
-175_074		July 7th 1989&lt;/p&gt;
+&lt;figcaption&gt; Table 1. Landsat scenes used for my postdoc studies on the Okavango swamps, Botswana. &lt;/figcaption&gt;
 
-&lt;p&gt;When we started the projects on the Okavango in 1999, the signals from the Global Positioning System (GPS) were purposefully degraded and had an accuracy of around 100 m. The Landsat data that we used thus had rather large geometeric errors. As several of my studies used the four landsat scenes shown in the figure above, all maps resulting from these studies are plagued by geometric errors. The theoretical geometric error compared to orthorectified aerial photo maps were estimated to about 50 m. The orthorectified photos, however, were also not correct inside the vast wetlands.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Scene&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Acquisition date&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;174_073&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19940801&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;174_074&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19940801&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;175_073&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19940701&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;175_074&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19890707&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;../../images/oka-tiles_wrs2_okaswamps_0_0.jpg&quot; /&gt;
+&lt;figcaption&gt; Figure 1. Landsat scenes used for my postdoc studies on the Okavango swamps, Botswana. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;geometric-precision&quot;&gt;Geometric precision&lt;/h3&gt;
+
+&lt;p&gt;When we started the projects on the Okavango in 1999, the signals from the Global Positioning System (GPS) were purposefully degraded and had an accuracy of around 100 m. The Landsat data that we used thus had rather large geometric errors. The theoretical geometric error compared to orthorectified aerial photo maps were estimated to about 50 m. The orthorectified photos, however, were also not correct inside the vast Okavango wetlands. As several of my studies used the four Landsat scenes shown in the figure above, all maps resulting from these studies are plagued by geometric errors.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-pleasing-landsat-composite&quot;&gt;The pleasing Landsat composite&lt;/h3&gt;
 
-&lt;p&gt;As part of the Okavango project, I created a natural color composite of the 4 landsat scenes. This “pleasning” map was then used as backdrop for many publications highlighting different structures and phenomena in and around the Okavango.&lt;/p&gt;
+&lt;p&gt;As part of the Okavango project, I created a natural color composite of the 4 Landsat scenes listed above. This “pleasing” map was then used as backdrop for many publications highlighting different structures and phenomena in and around the Okavango.&lt;/p&gt;
 
-&lt;p&gt;The pleasing landsat composite is available as a 3-band (red-green-blue) GeoTiff image. The downloadable GeoTiff is projected to UTM34S (EPSG:32734).&lt;/p&gt;
+&lt;p&gt;The pleasing Landsat composite is available as a single band (red-green-blue) GeoTiff image. The downloadable GeoTiff is projected to UTM34S (EPSG:32734), and available as a &lt;a href=&quot;../../docs/pleasing/natcol_lt05_okaswamps_199407_byte.tif.zip&quot;&gt;zip file&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;atsr-images&quot;&gt;ATSR images&lt;/h2&gt;
+&lt;figure&gt;
+&lt;img src=&quot;../../images/natcol_lt05_okaswamps_199407_ql.jpg&quot; /&gt;
+&lt;figcaption&gt; Composite natural color map over the Okavango wetlands, Botswana. The full resolution image (28.5) is downloadabe [here](../../docs/pleasing/natcol_lt05_okaswamps_199407_byte.tif.zip) &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;For tracing the flooding pattern we used a series of ATSR images.&lt;/p&gt;</content><author><name></name></author></entry><entry><title type="html">Karttur GitHub repository overview</title><link href="http://localhost:4000/overview/overview-main/" rel="alternate" type="text/html" title="Karttur GitHub repository overview" /><published>2018-01-09T11:27:00+01:00</published><updated>2018-01-09T11:27:00+01:00</updated><id>http://localhost:4000/overview/overview-main</id><content type="html" xml:base="http://localhost:4000/overview/overview-main/">&lt;p&gt;&lt;strong&gt;Contents&lt;/strong&gt;
-- &lt;a href=&quot;#scaffolding&quot;&gt;Scaffolding&lt;/a&gt;
-- &lt;a href=&quot;#repositories&quot;&gt;Repositories&lt;/a&gt;
-  - &lt;a href=&quot;#overview&quot;&gt;overview&lt;/a&gt;
-  - &lt;a href=&quot;#setup-blog&quot;&gt;setup-blog&lt;/a&gt;
-  - &lt;a href=&quot;#setup-github&quot;&gt;setup-github&lt;/a&gt;
-  - &lt;a href=&quot;#setup-theme-blog&quot;&gt;setup-theme-blog&lt;/a&gt;
-  - &lt;a href=&quot;#setup-ide&quot;&gt;setup-ide&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;This blog is an attempt to create an overview of the contents in Karttur’s GitHub site. The site is organized in repositories, with each repository containing a blog, and some containing program codes. You can use the top menu to get to the different repositories, or the links in the descriptions of the content of each repository below.&lt;/p&gt;
-
-&lt;h2 id=&quot;scaffolding&quot;&gt;Scaffolding&lt;/h2&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;karttur/
-├── overview/
-|    └── blog/
-|        └──                          &lt;span class=&quot;c&quot;&gt;# empty&lt;/span&gt;
-|    └── overview/
-|        └── overview-main            &lt;span class=&quot;c&quot;&gt;# this page&lt;/span&gt;
-├── setup-blog/
-|    └── Set up blog tools            &lt;span class=&quot;c&quot;&gt;# tutorial on Jekyll and Atom&lt;/span&gt;
-├── setup-github/
-|    └── Set up GitHub                &lt;span class=&quot;c&quot;&gt;# tutorial on markdown and GitHub&lt;/span&gt;
-├── setup-theme-blog/
-|    └── blog/
-|        └── hide-show-div            &lt;span class=&quot;c&quot;&gt;# Hide/show code with javascript&lt;/span&gt;
-|    └── setup-blog/
-|        ├── Set up Jekyll theme blog &lt;span class=&quot;c&quot;&gt;# Select, edit and publish Jekyll Theme&lt;/span&gt;
-|        └── Theme Setup              &lt;span class=&quot;c&quot;&gt;# The So Simple Theme instructions&lt;/span&gt;
-├── setup-ide/
-|    └── blog/
-|        └──                          &lt;span class=&quot;c&quot;&gt;# empty&lt;/span&gt;
-|    └── ide-setup/     
-|        ├── Install Anaconda         &lt;span class=&quot;c&quot;&gt;# Install Anaconda Python package on macOS&lt;/span&gt;
-|        ├── Setup Eclipse with PyDev &lt;span class=&quot;c&quot;&gt;# Install Eclipse and set up with Anaconda&lt;/span&gt;
-|        ├── Install PostgreSQL       &lt;span class=&quot;c&quot;&gt;# Install PostgreSQL and PostGIG on macOS&lt;/span&gt;
-|        ├── Connect PostgreSQL       &lt;span class=&quot;c&quot;&gt;# psycopg2 connect PostgreSQL and Python  &lt;/span&gt;
-|        ├── PostgreSQL xml setup     &lt;span class=&quot;c&quot;&gt;# Setup db schema &amp;amp; tables using xml&lt;/span&gt;
-|        └── GDAL, QGIS and GRASS     &lt;span class=&quot;c&quot;&gt;# Install GDAL, QGIS and GRASS on macOS&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;repositories&quot;&gt;Repositories&lt;/h2&gt;
-
-&lt;h3 id=&quot;overview&quot;&gt;overview&lt;/h3&gt;
-
-&lt;p&gt;The overview repository only contains web-pages.&lt;/p&gt;
-
-&lt;h3 id=&quot;setup-blog&quot;&gt;setup-blog&lt;/h3&gt;
-
-&lt;p&gt;The repository &lt;a href=&quot;https://karttur.github.io/setup-blog/&quot;&gt;Setup-blog&lt;/a&gt; contains a manual on how that very page was created by using Jekyll and the default Theme minima. The page also introduces using the text editor &lt;span class=&quot;app&quot;&gt;Atom&lt;/span&gt; for editing markdown files. The GitHub repository contains the full code under the branch ‘gh-pages’. It might be useful to follow the manual to set up your very first Jekyll blog.&lt;/p&gt;
-
-&lt;p&gt;Url links:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-blog/&quot;&gt;front web page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-blog/tree/gh-pages&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;setup-github&quot;&gt;setup-github&lt;/h3&gt;
-
-&lt;p&gt;Also the repository &lt;a href=&quot;https://karttur.github.io/setup-github/&quot;&gt;Setup-github&lt;/a&gt; contains a single web-page created using Jekyll, but without any template Theme. The page is an introductory manual on how to publish a web site with blogs on GitHub.com using &lt;span class=&quot;app&quot;&gt;GitHub desktop.app&lt;/span&gt;. The GitHub repository contains the full code under the branch ‘gh-pages’. It might be useful for learning a bit about markdown and publishing Jekyll generated web-pages on GitHub.&lt;/p&gt;
-
-&lt;p&gt;Url links:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-github/&quot;&gt;front web-page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-github/tree/gh-pages&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;setup-theme-blog&quot;&gt;setup-theme-blog&lt;/h3&gt;
-
-&lt;p&gt;After having tried out creating web-pages using Jekyll, learnt a bit about markdown and editing the markdown coding system in the text editor Atom, I selected an Open Source Jekyll Theme (So Simple by Michael Rose) as the template for continuing publishing my articles and blogs. The repository &lt;a href=&quot;https://karttur.github.io/setup-theme-blog/&quot;&gt;setup-theme-blog&lt;/a&gt; contains my step-by-step manual on how I setup the So Simple Theme. The blog contains additional tweaking I have done to the So Simple Theme to make it fit my needs.&lt;/p&gt;
-
-&lt;p&gt;Url links:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-theme-blog/&quot;&gt;front web-page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-theme-blog/tree/gh-pages&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;setup-ide&quot;&gt;setup-ide&lt;/h3&gt;
-
-&lt;p&gt;The core of the Karttur site is about map making and spatial data processing, especially using satellite images. The repository &lt;a href=&quot;https://karttur.github.io/setup-ide/&quot;&gt;setup-ide&lt;/a&gt; (ide stands for Integrated Development Environment) covers the installations and setups to create the framework needed for the kind of map making that Karttur does.&lt;/p&gt;
-
-&lt;p&gt;Url links:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/&quot;&gt;front web-page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/karttur/setup-ide/tree/gh-pages&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Direct links to the installation and setup instructions of different components (primarily for macOS):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-gis/&quot;&gt;GIS&lt;/a&gt; (Install GDAL, QGIS and GRASS)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-anaconda/&quot;&gt;Anaconda&lt;/a&gt; (Install Ananconda Python Interpreter)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-eclipse/&quot;&gt;Eclipse&lt;/a&gt; (Install IDE for Python)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/install-postgres/&quot;&gt;PostgreSQL&lt;/a&gt; (Install PostgreSQL with PostGIS database)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/connect-with-psycopg2/&quot;&gt;psycopg2&lt;/a&gt; (connect Python and Postgres using psycopg2)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://karttur.github.io/setup-ide/setup-ide/setup-db-karttur/&quot;&gt;db architecture&lt;/a&gt; (create db architecture [schemas and tables] using xml)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Blog setup" /><category term="IDE setup" /><category term="DB setup" /><category term="GIS installations" /><category term="macOS" /><summary type="html">Overview of Karttur´s GitHub site for blogs, articles and manuals</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry></feed>
+&lt;p&gt;&lt;a href=&quot;../../docs/pleasing/natcol_lt05_okaswamps_199407_byte.tif.zip&quot;&gt;&lt;strong&gt;Natural color (“pleasing”) composite over the Okavango Swamps&lt;/strong&gt;&lt;/a&gt;. The image is a zipped GeoTiff at 28.5 m spatial resolution and projected to UTM 34 south (EPSG:32734). The image is in byte format created from a dithered red-green-blue (RGB) composite that in turn was constructed using a Brovey transformation and the four Landsat TM scenes listed above.&lt;/p&gt;</content><author><name></name></author><category term="Okavango" /><category term="Landsat TM" /><category term="pleasing" /><summary type="html">Satellite image data that was used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry></feed>

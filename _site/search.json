@@ -1,14 +1,18 @@
 [
 
   
-
+    {
+      "title"			: "Landcover",
+      "link"			: "http://localhost:4000/blog/oka-landcover/",
+      "excerpt"		: "Landcover classification of the Okavango Delta, Botswana"
+    }
   
 
   
     ,{
-      "title"			: "Karttur GitHub repository overview",
-      "link"			: "http://localhost:4000/overview/overview-main/",
-      "excerpt"		: "Overview of Karttur´s GitHub site for blogs, articles and manuals"
+      "title"			: "Satellite image data",
+      "link"			: "http://localhost:4000/blog/oka-pleasing/",
+      "excerpt"		: "Satellite image data that was used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa."
     }
   
 

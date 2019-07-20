@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Landcover
-modified: '2019-07-18 11:27
-categories: article
+modified: '2019-07-18 11:27'
+categories: blog
 excerpt: "Landcover classification of the Okavango Delta, Botswana"
 tags:
   - okavango
@@ -21,7 +21,7 @@ This post summarizes the ecoregion map over the Okavango Delta, Botswana that I 
 
 The original article was published in a [special issue on SAFARI2000 in the Journal of Remote Sensing](https://www.tandfonline.com/doi/full/10.1080/01431160500113583). The article is also found under its [DOI](https://doi.org/10.1080/01431160500113583)
 
-The article 
+The article
 
 
 # Introduction

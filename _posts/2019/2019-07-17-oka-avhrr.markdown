@@ -1,0 +1,250 @@
+---
+layout: post
+title: AVHRR, ATSR and Landsat quicklook images
+modified: '2019-07-17 11:27'
+categories: blog
+excerpt: "AVHRR, ATSR and Landsat low resolution image data used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa."
+tags:
+  - Okavango
+  - Landsat quicklooks
+  - AVHRR
+  - ATSR
+  - flooding
+image: avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
+date: '2019-07-17 11:27'
+comments: true
+share: true
+figure1: oka-tiles_wrs2_okaswamps_0_0
+---
+
+Understanding the Okavango swamps requires knowledge on both the seasonal and inter-annual variations in inundation (flooding). During my Post Doc period (1999-2001) at University of the Witwatersrand in Johannesburg, South Africa, we acquired a series of different coarse resolution image data sets, including from several generations of the Advanced Very High Resolution Radiometer (AVHRR) operated by the US National Oceanic and Atmospheric Administration (NOAA), the European Space Agency (ESA) Along Track Scanning Radiometer (ATSR), and low resolution (quicklook) Landsat images. As noted in the previous post, this was before the free release of Landsat images and we used the quicklooks available on internet (intended for "window shopping"). Primarily these datasets were used for mapping the flooding dynamics of the Okavango swamps.
+
+Details on the methods for processing the data presented (and made available for download) here are available in a scientific article published in the journal Ambio:
+
+[McCarthy, J., Gumbricht, T., McCarthy, T. Frost, P. Wessels, K. & Seidel, K., 2003. **Flooding Patterns of the Okavango Wetland in Botswana between 1972 and 2000.** AMBIO: A Journal of the Human Environment, 32 (7) , 453-457.](http://doi.org/10.1579/0044-7447-32.7.453)
+
+## The earliest image and the largest flood
+
+The largest flood I have found occurred in 1963. This is a decade before the first Landsat satellite was put into orbit, but the flood was captured by a Corona (US spy) satellite. Figure 1 shows the full Corona image, along side a flood mask that I created from the image.
+
+<figure class="half">
+     <img src="../../images/corona-text_1963_09_02.jpg" alt="image"/>
+
+   <img src="../../images/floodmask_corona_1963_09_02.jpg" alt="image"/>
+
+   <figcaption>Figure 1. Corona spy satelltie images over the Okavango Delta, Botswana acquired 2 September 1963; the right panel shows the inundated area interpreted from the Corona image.</figcaption>
+</figure>
+
+## AVHRR
+
+We had two different sources of AVHRR images. Via the USAid Famine Early Warning System (FEWS) 10-day composites of AVHRR data over the whole Africa were freely available from 1992 to 1995 (with large gaps in 1994). And then the South African Institute for Soil, Climate and Water had stored AVHRR images over southern Africa starting in 1985. The latter was the main source of the data in the study; other data sources could almost be seen as supplementary.
+
+### AVHRR 1985-2000
+
+In total we got access to 2951 AVHRR scenes from the Institute for Soil, Climate and Water for the period 1985 to 2000. In a first step we reprojected these to SUTM 34 and masked out all clouds. If you are interested in these images, please drop me an email. They are copyright protected, and I can not share them freely.
+
+ From the 2951 scenes we selected the best 381 and applied a clustering classification with manual selection of flooded areas (see figure 7 for a summary of the method). A three-dimensional contextual and weighted filter – using the preceding and following 10-day images as the third dimension, smoothed the initial water classification. Pixel locations with clouds were handled by seeking the closest cloud-free image for that pixel.
+ In total we created complete flooding maps for 373 dates. The GeoTiff files for these dates are available for download [here](../../docs/flooding/floodmaks_daily-compositions_avhrr_okaswamps.zip)
+
+From the set of 373 images of composed dates we estimated the flooding for 152 months between February 1985 and December 2000. The monthly GeoTiff layers at 1 km spatial resolution, and projected to SUTM 34 are downloadable in two versions:
+
+- [Okavango swamps only](../../docs/flooding/floodmask_avhrr_oka-only_1985-2000_monthly.zip)
+- [Including Linyanti and Lake Ngami](../../docs/flooding/floodmask_avhrr_oka-ngami-linyanti_1985-2000_monthly.zip)
+
+In the latter the three months of July, August and September 1993 are missing. The images are boolean masks indicating flooding / non-flooding.
+
+#### Monthly inundation pattern
+
+Figure 2 shows the monthly flooding frequencies for the period 1985-2000 based on the monthly images. The monthly frequency GeoTiff layers representing 1985 to 2000 at 1 km spatial resolution are downloadable [here](../../docs/flooding/floodfreq_avhrr_okaswamps_1985-2000_monthly.zip). The images are in byte format with the cell value denoting % of time inundated. The frequency images only show the Okavango; Linyanti and Lake Ngami are masked out.
+
+<figure class="third">
+     <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M01_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M02_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M03_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M04_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M05_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M06_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M07_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M08_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M09_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M10_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M11_oka-only.jpg" alt="image"/>
+
+   <img src="../../images/floodfreq_avhrr_okaswamps_1985-2000@M12_oka-only.jpg" alt="image"/>
+
+   <figcaption>Figure 2. Monthly flooding frequencies 1985-2000 for the Okavango wetlands, Botswana. Darkest blue represents 100% flooding frequency. The first row represents January, February and March, etc.</figcaption>
+</figure>
+
+#### Overall flooding frequency
+
+Figure 3 shows the overall flooding frequency for 1985-2000. The GeoTiff layer at 1 km spatial resolution is downloadable [here](../../docs/flooding/floodfreq_avhrr_okaswamps_1985-2000_oka-only.tif.zip). The image is in byte format with the cell value denoting % of time inundated. The image only shows the Okavango; Linyanti and Lake Ngami are masked out.
+
+<figure>
+<img src="../../images/floodfreq_avhrr_okaswamps_1985-2000_0.jpg">
+<figcaption> Figure 3. Flooding frequency in the Okavango swamps, Botswana, 1986 to 2000. Image created from time-series of AVHRR satellite images.  </figcaption>
+</figure>
+
+### AVHRR 1992, 1993 and 1995
+
+After a long period with relatively larger floods 1960 to 1990 (see figures 1,2 and 5), the early 1990s saw smaller floods in the Okavango. The AVHRR 1992 to 1995 data made available by FEWS (see above) thus show comparatively smaller floods, figure 4. The GeoTiff layers at 1 km spatial resolution are downloadable [here](../../docs/flooding/floodfreq_avhrr_okaswamps_annual_fews.zip). The images are in byte format with the cell value denoting % of time inundated.
+
+<figure class="third">
+    <a href="../../images/floodfreq_avhrr_okaswamps_1992_fews.jpg"><img src="../../images/floodfreq_avhrr_okaswamps_1992_fews-ql.jpg" alt="image"/></a>
+
+   <a href="../../images/floodfreq_avhrr_okaswamps_1993_fews.jpg"><img src="../../images/floodfreq_avhrr_okaswamps_1993_fews-ql.jpg" alt="image"/></a>
+
+   <a href="../../images/floodfreq_avhrr_okaswamps_1995_fews.jpg"><img src="../../images/floodfreq_avhrr_okaswamps_1995_fews-ql.jpg" alt="image"/></a>
+
+   <figcaption>Figure 4. Annual flooding frequencies 1992,1993 and 1995 for the Okavango wetlands, Botswana. Darkest blue represents 100% flooding frequency. </figcaption>
+</figure>
+
+## Landsat quicklooks
+
+FROM the USGS online archive of available Landsat scenes back in 2000, we grabbed all the quicklooks we could find (totaling 92). Using an automatic clustering routine followed by manual selection of water classes we created water masks for each individual scene. The water masks for all 92 scenes can be downloaded as GeoTiff layers [here](../../docs/flooding/floodmask-scenes_landsat-ql_okaswamps_1972-2000_oka-only)
+
+Covering the whole of the Okavango Swamps from Landsat data requires four (4) Landsat scenes (see [previous](../oka-landsat/) post). For months with complete (or almost complete) coverage over the Okavango, we created monthly inundation masks. Combining all data for an annual cycle we also created images of the maximum annual flood for years with sufficient data.
+
+### Monthly floodmasks
+
+Figure 5 shows all the complete monthly composite flood masks that we could create from Landsat quicklooks images. The earliest mask is from November 1972. The GeoTiff data is available for download [here](../../docs/flooding/floodmask_landsat-ql_okaswamps_1972-2000_oka-only.zip).
+
+<figure class="third">
+     <a href="../../images/floodmask_landsat-ql_okaswamps_197211_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_197211_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_197508_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_197508_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_197905_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_197905_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_198405_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_198405_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_198406_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_198406_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_198407_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_198407_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_198408_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_198408_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_199407_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_199407_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_199910_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_199910_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_200004_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_200004_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_200006_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_200006_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask_landsat-ql_okaswamps_200009_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_200009_oka-ql.jpg" alt="image"/></a>
+
+   <figcaption>Figure 5. Flood masks over the Okavango Swamps, Botswana, constructed from mosaics of Landsat quicklook images.  The date for each composite is indicated in the image. To view larger version click on one of the images flip by clicking the navigation arrow that appears.</figcaption>
+</figure>
+
+### Annual max floods
+
+The annual maximum extent (accumulated) of the inundation area made use of all available Landsat quicklooks, figure 6. (Not only the composites shown in figure 5 where used to construct the maps in figure 6). The GeoTiff data for the annual maximum flood are available for download [here](../../docs/flooding/floodmask-max-a_landsat-ql_okaswamps_1972-2000_oka-only.zip).
+
+<figure class="third">
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1972_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1972_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1975_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1975_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1979_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1979_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1984_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1984_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1985_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1985_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1994_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1994_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_1999_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_1999_oka-ql.jpg" alt="image"/></a>
+
+     <a href="../../images/floodmask-max-a_landsat-ql_okaswamps_2000_oka-only.jpg"><img src="../../images/floodmask-max-a_landsat-ql_okaswamps_2000_oka-ql.jpg" alt="image"/></a>
+
+   <figcaption>Figure 6. Flood masks of accumulated annual max  extent for the Okavango Swamps, Botswana. The data were derived by interpretation of Landsat quicklook images.  The year for each composite is indicated in the image. To view larger version click on one of the images flip by clicking the navigation arrow that appears.</figcaption>
+</figure>
+
+## ATSR
+
+For 1999 and 2000 we acquired 28 ATSR scenes over the Okavango, you can download the raw scenes cut to the Okavango and projected to SUTM 34 at 1 km spatial resolution from [here](../../docs/flooding/ATSR_rawscenes_okaswamps.zip). Note that some of the scenes are taken at night.
+
+The ATSR data are better compared to both Landsat quicklooks and the archived AVHRR data we had access to. We hence used the ATSR for accuracy evaluation of the flood masks created from AVHRR data.
+
+The extraction of inundated areas from the ATSR images followed the same methods as applied to the AVHRR and Landsat quicklooks; from an initial clustering the clusters representing flooding were manually selected and extracted. Figure 7 illustrates the work flow for generating all the flood masks presented here.
+
+<figure class="third">
+     <img src="../../images/ATSR_raw_19990921_pub.jpg" alt="image"/>
+     <img src="../../images/ATSR_cluster_19990921_pub.jpg" alt="image"/>
+     <img src="../../images/ATSR_floodmask_19990921_pub.jpg" alt="image"/>
+   <figcaption>Figure 7. Illustration of methods used for creating the boolean flood masks, the left panel shows the original image (ATSR scene shown as false color composite), the middle panel the result of an automatic clustering classification, and the right panel the flood mask derived by manually identifying clusters representing flooded areas (from mid panel image). </figcaption>
+</figure>
+
+### Accuracy evaluation
+
+In total, the accuracy of the flood masks were tested comparing 12 dates. For each of these 12 dates we created flood masks from data representing two different sensors, either AVHRR versus ATSR, or AVHRR versus Landsat. For most of the dates we had to combine data from adjacent dates to create complete and cloud free maps from both sensors. See [article in Ambio](http://doi.org/10.1579/0044-7447-32.7.453)) for details. The cross correlations indicated an agreement of 89% when comparing the flooding masks from different sensors.
+
+The results for all compared dates are shown in Figure 8.
+
+<figure class="third">
+     <img src="../../images/crosstab_avhrr_okaswamps_19940705_landsat.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19941204_landsat.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19950215_landsat.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19990825_atsr.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19990903_atsr.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19990905_atsr.jpg" alt="image"/>
+     <img src="../../images/crosstab_avhrr_okaswamps_19990919_atsr.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19990928_atsr.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19991007_landsat.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_19991216_atsr.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_20000407_landsat.jpg" alt="image"/>
+
+     <img src="../../images/crosstab_avhrr_okaswamps_20000908_landsat.jpg" alt="image"/>
+
+   <figcaption>Figure 8. Comparison of flood masks for dates with multiple data sources available. Blue indicates that the flood masks from the compared sensors agree; purple and orange that they do not. Source data and dates are given in each map.</figcaption>
+</figure>
+
+The cross correlation maps above are available for download as GeoTiff files [here](../../docs/flooding/floodmasks_cross-correlations_okaswamps.zip). Note that the data used in the correlations have been massaged to:
+
+- have the same projection and resolution,
+- completely cover the Okavango, and
+- only show the Okavango swamps, excluding Linyanti swamps and Lake Ngami.
+
+## Flood frequency at high Resolution
+
+For the mapping and modeling that I wanted to do for the Okavango I needed a higher resolution flood frequency map compared to the 500 m to 1 km spatial resolution of the AVHRR and Landsat quicklooks. To achieve that I combined the flood frequency maps above with the high resolution [Landsat scenes](../oka-landsat/) that we had been given by Anglo American]. I then also digitized the river channels in the Okavango swamps and added data on the average flow and flow duration that I got access to. Combining all these sources I then constructed a flood frequency map at 28.5 m spatial resolution, exactly fitting the Landsat composition over the entire Okavango Delta. These two data sources were then the key resources for creating the [ecoregion map of the Okavango Delta, the subject of another post](../oka-landcover/).
+
+The full (28.5) resolution flood frequency map over the Okavango is available as a compressed GeoTiff [here](../../docs/flooding/floodfreq_multisource_okaswamps_1992-2000_28m.tif.zip). The map is projected to SUTM 34, and fits exactly with the Landsat composition and the land cover classification, each presented in other posts. Rather than cleaning the high resolution dataset I kept the suspected overestimations outside the actually swamp area. In the subsequent processing I instead applied a mask as applicable.
+
+<figure>
+<img src="../../images/floodfreq_multisource_okaswamps_1992-2000_m.jpg">
+<figcaption> Composite natural color map over the Okavango wetlands, Botswana. The full resolution image (28.5) is downloadabe [here](../../docs/pleasing/natcol_lt05_okaswamps_199407_byte.tif.zip) </figcaption>
+</figure>
+
+## Studies using the flood data
+
+The flooding data presented in this post were used as input in several other studies. I hope to present these studies in some detail on this blog, in the meantime I supply this list:
+
+- [McCarthy, J., Gumbricht, T., McCarthy, T. Frost, P. Wessels, K. & Seidel, K., 2003. Flooding Patterns of the Okavango Wetland in Botswana between 1972 and 2000. AMBIO: A Journal of the Human Environment, 32 (7) , 453-457.](http://doi.org/10.1579/0044-7447-32.7.453)
+- [Bauer, P., Gumbricht, T., & Kinzelbach, W., 2006. A regional coupled surface water/groundwater model of the Okavango Delta, Botswana Water Resources Research, 42 (4) , 1-15.](http://doi.org/10.1029/2005WR004234)
+- [Wolski, P., Savenije, H.H.G., Murray-Hudson, M & Gumbricht, T., 2006. Modelling of the flooding in the Okavango Delta, Botswana, using a hybrid reservoir-GIS model. Journal of Hydrology, 331 (1-2) , 58–72.](http://doi.org/10.1016/j.jhydrol.2006.04.040)
+- [McCarthy, J., Gumbricht, T., & McCarthy, T. S., 2005. Ecoregion classification in the Okavango Delta, Botswana from multitemporal remote sensing. Int J Remote Sensing, 26 (19) , 4339–4357.](http://doi.org/10.1080/01431160500113583)
+- [Gumbricht, T., Wolski, P., Frost, P. & McCarthy, T.S., 2004. Forecasting the spatial extent of the annual flood in the Okavango delta, Botswana. Journal of Hydrology, 290 (3-4) , 178–191.](http://doi.org/10.1016/j.jhydrol.2003.11.010)
+
+## Resources
+
+[GitHub folder with all flooding data (GeoTiff)](https://github.com/karttur/okavango/tree/gh-pages/docs/flooding)

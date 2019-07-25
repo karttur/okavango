@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-24T09:49:50+02:00</updated><id>http://localhost:4000/</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Okavango ecoregions</title><link href="http://localhost:4000/blog/oka-landcover/" rel="alternate" type="text/html" title="Okavango ecoregions" /><published>2019-07-18T11:27:00+02:00</published><updated>2019-07-18T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-landcover</id><content type="html" xml:base="http://localhost:4000/blog/oka-landcover/">&lt;p&gt;This post summarizes the ecoregion map over the Okavango Delta, Botswana that I did back in 1999 together with Jenny McCarty (then a PhD student) and Terence McCarthy (professor at University of the Witwatersrand [Wits] and leader of the Okavango Research Group at Wits).  I was at Wits as a post doc sponsored by the Swedish Royal Academy of Sciences. The mapping project was partly done within the SAFARI2000 evaluation programme of the MODIS sensor.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-25T09:21:05+02:00</updated><id>http://localhost:4000/</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Ecoregion classification</title><link href="http://localhost:4000/blog/oka-landcover/" rel="alternate" type="text/html" title="Ecoregion classification" /><published>2019-07-18T11:27:00+02:00</published><updated>2019-07-18T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-landcover</id><content type="html" xml:base="http://localhost:4000/blog/oka-landcover/">&lt;p&gt;This post summarizes the ecoregion map over the Okavango Delta, Botswana that I did back in 1999 together with Jenny McCarty (then a PhD student) and Terence McCarthy (professor at University of the Witwatersrand [Wits] and leader of the Okavango Research Group at Wits).  I was at Wits as a post doc sponsored by the Swedish Royal Academy of Sciences. The mapping project was partly done within the SAFARI2000 evaluation programme of the MODIS sensor.&lt;/p&gt;
 
 &lt;p&gt;The original article &lt;em&gt;Ecoregion classification in the Okavango Delta, Botswana from multitemporal remote sensing&lt;/em&gt; was published in a &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/01431160500113583&quot;&gt;special issue on SAFARI2000 in the Journal of Remote Sensing&lt;/a&gt;. The article is also found under its &lt;a href=&quot;https://doi.org/10.1080/01431160500113583&quot;&gt;DOI&lt;/a&gt;&lt;/p&gt;
 
@@ -124,7 +124,67 @@
 
 &lt;h2 id=&quot;acknowledgement&quot;&gt;Acknowledgement&lt;/h2&gt;
 
-&lt;p&gt;The classification work was done as part on an international co-operation within the Okavango Research Group headed by prof. T.S.McCarthy, Department of Geology, Wits University. Financing came through a scholarship from the The Swedish Foundation for International Cooperation in Research and Higher Education for doctoral student Jenny McCarthy and as a post doctoral scholarship financed by the Swedish Royal Academy of Sciences, for the author.&lt;/p&gt;</content><author><name></name></author><category term="Okavango" /><category term="Landsat" /><category term="landcover classification" /><category term="Expert system" /><summary type="html">Ecoregion classification of the Okavango Delta, Botswana</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry><entry><title type="html">AVHRR, ATSR and Landsat quicklook images</title><link href="http://localhost:4000/blog/oka-avhrr/" rel="alternate" type="text/html" title="AVHRR, ATSR and Landsat quicklook images" /><published>2019-07-17T11:27:00+02:00</published><updated>2019-07-17T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-avhrr</id><content type="html" xml:base="http://localhost:4000/blog/oka-avhrr/">&lt;p&gt;Understanding the Okavango swamps requires knowledge on both the seasonal and inter-annual variations in inundation (flooding). During my Post Doc period (1999-2001) at University of the Witwatersrand in Johannesburg, South Africa, we acquired a series of different coarse resolution image data sets, including from several generations of the Advanced Very High Resolution Radiometer (AVHRR) operated by the US National Oceanic and Atmospheric Administration (NOAA), the European Space Agency (ESA) Along Track Scanning Radiometer (ATSR), and low resolution (quicklook) Landsat images. As noted in the previous post, this was before the free release of Landsat images and we used the quicklooks available on internet (intended for “window shopping”). Primarily these datasets were used for mapping the flooding dynamics of the Okavango swamps.&lt;/p&gt;
+&lt;p&gt;The classification work was done as part on an international co-operation within the Okavango Research Group headed by prof. T.S.McCarthy, Department of Geology, Wits University. Financing came through a scholarship from the The Swedish Foundation for International Cooperation in Research and Higher Education for doctoral student Jenny McCarthy and as a post doctoral scholarship financed by the Swedish Royal Academy of Sciences, for the author.&lt;/p&gt;</content><author><name></name></author><category term="Okavango" /><category term="Landsat" /><category term="landcover classification" /><category term="Expert system" /><summary type="html">Ecoregion classification of the Okavango Delta, Botswana</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry><entry><title type="html">Geophysiological regions</title><link href="http://localhost:4000/blog/oka-physiography/" rel="alternate" type="text/html" title="Geophysiological regions" /><published>2019-07-17T11:27:00+02:00</published><updated>2019-07-17T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-physiography</id><content type="html" xml:base="http://localhost:4000/blog/oka-physiography/">&lt;p&gt;The Okavango Swamps in Botswana are composed of a mosaic of islands and wetlands with a pronounced annual inundation cycle (see &lt;a href=&quot;../oka-avhrr/&quot;&gt;previous&lt;/a&gt; post). The Panhandle entry valley is mostly permanently inundated, as is the proximal region of the swamps as the water leaves the Panhandle and spreads out over the alluvial fan (usually referred to as a “delta” but that is strictly speaking not correct). Further downstream the permanent wetlands give way to floodplains and then to grasslands with regular or occasional (during wetter years only) flooding. Salt pans occur both in the lower reaches of the alluvial fan and on islands. Island rims are usually elevated with riparian forests. Outside the region that is flooded the Kalahari desert with its sparse woodlands take over.&lt;/p&gt;
+
+&lt;p&gt;I spent my Post Doc time (1999-2001) at University of the Witwatersrand studying the Okavango swamps. My first results led me to construct a regionalization of patterns and process (henceforth: geophysiology) of the swamps. The initial results were presented at the &lt;em&gt;28th International conference on remote sensing of the environment.&lt;/em&gt; Cape Town, 27-31 March 2000, in the article &lt;a href=&quot;https://karttur.github.io/common/pdf/oka_RSENV-CD_capetown_2000_tg-etal.pdf&quot;&gt;Portraying the geophysiology of the Okavango Delta, Botswana&lt;/a&gt;. In this post I briefly describe the regionalization and provide the link for downloading the regions as a geospatial data layer.&lt;/p&gt;
+
+&lt;h2 id=&quot;okavango-geophysiolgical-regions&quot;&gt;Okavango geophysiolgical regions&lt;/h2&gt;
+
+&lt;p&gt;The Delta is divided into four distinct geophysiological regions; the Panhandle - a transitory entry valley confined to a tectonic graben, the permanent swamps, the seasonal swamps, and the region with flooding only during wet years (“occassional swamps”) (table 1 and figure 1). Water level in the Panhandle and on the floodplains of the seasonal swamps vary up to 2 meters annually, whereas the permanent swamps have a less varied water level. Both the swamp geophysiology and the island types vary from region to region, table 1.&lt;/p&gt;
+&lt;figcaption&gt;
+
+Table 1. Geophysiological regions of the Okavango delta
+&lt;/figcaption&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Geophysiological region&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Dominating wetland types&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Typical island/dryland types&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Panhandle&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;meandering channels,&lt;br /&gt;lakes, reed swamps&lt;br /&gt; (&lt;em&gt;Papyrus, Phragmites&lt;/em&gt;)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;sand banks, grasslands&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Permanent swamp&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;channels, lakes, reed swamps&lt;br /&gt; (&lt;em&gt;Papyrus, Phragmites, Miscanthus&lt;/em&gt;)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;scrollbar &amp;amp; anthill islands&lt;br /&gt; salt pans (island interiors)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Seasonal swamp&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;channels, floodplains&lt;br /&gt;(sedges and grasses)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;inverted channel islands,&lt;br /&gt; anthill islands, saltpan islands&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Occasional flooded area&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;flooded grasslands (wet meadows), salt pans&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;grasses and sedges&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Dryland&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Savannah, dry forest&lt;br /&gt; (&lt;em&gt;Acacia&lt;/em&gt;, &lt;em&gt;Combretum&lt;/em&gt;, &lt;em&gt;Mopane&lt;/em&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Using a combination of &lt;a href=&quot;../oka-avhrr/&quot;&gt;coarse resolution satellite image time series of flooding&lt;/a&gt; and a high resolution &lt;a href=&quot;../oka-landsat/&quot;&gt;Landsat composite&lt;/a&gt;, we converted the Geophysiological regions in table 1 to spatial extents, figure 1. These regions were later used in several subsequent studies, including for &lt;a href=&quot;../oka-landcover/&quot;&gt;ecoregion classification&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The spatially defined geophysiological regions are available as a shape file in geographic coordinates (longitude and latitude) &lt;a href=&quot;../../docs/geophysiology_wits_okaswamps_1994_pub.zip&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;../../images/geophysiology_wits_okaswamps_1994_m.jpg&quot; /&gt;
+&lt;figcaption&gt; Figure 1. Geophysiological regions of the Okavango swamps, Botswana.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/karttur/okavango/tree/gh-pages/docs/geophysiology/&quot;&gt;GitHub folder with the geophysiological data (shape files)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Okavango" /><category term="Geophysiological regions" /><summary type="html">Geophysiological regions of the Okavango swammps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry><entry><title type="html">AVHRR, ATSR and Landsat quicklook images</title><link href="http://localhost:4000/blog/oka-avhrr/" rel="alternate" type="text/html" title="AVHRR, ATSR and Landsat quicklook images" /><published>2019-07-16T11:27:00+02:00</published><updated>2019-07-16T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-avhrr</id><content type="html" xml:base="http://localhost:4000/blog/oka-avhrr/">&lt;p&gt;Understanding the Okavango swamps requires knowledge on both the seasonal and inter-annual variations in inundation (flooding). During my Post Doc period (1999-2001) at University of the Witwatersrand in Johannesburg, South Africa, we acquired a series of different coarse resolution image data sets, including from several generations of the Advanced Very High Resolution Radiometer (AVHRR) operated by the US National Oceanic and Atmospheric Administration (NOAA), the European Space Agency (ESA) Along Track Scanning Radiometer (ATSR), and low resolution (quicklook) Landsat images. As noted in the previous post, this was before the free release of Landsat images and we used the quicklooks available on internet (intended for “window shopping”). Primarily these datasets were used for mapping the flooding dynamics of the Okavango swamps.&lt;/p&gt;
 
 &lt;p&gt;Details on the methods for processing the data presented (and made available for download) here are available in a scientific article published in the journal Ambio:&lt;/p&gt;
 
@@ -360,7 +420,7 @@
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/karttur/okavango/tree/gh-pages/docs/flooding&quot;&gt;GitHub folder with all flooding data (GeoTiff)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Okavango" /><category term="Landsat quicklooks" /><category term="AVHRR" /><category term="ATSR" /><category term="flooding" /><summary type="html">AVHRR, ATSR and Landsat low resolution image data used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry><entry><title type="html">Landsat satellite image data</title><link href="http://localhost:4000/blog/oka-landsat/" rel="alternate" type="text/html" title="Landsat satellite image data" /><published>2019-07-17T11:27:00+02:00</published><updated>2019-07-17T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-landsat</id><content type="html" xml:base="http://localhost:4000/blog/oka-landsat/">&lt;style&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/karttur/okavango/tree/gh-pages/docs/flooding&quot;&gt;GitHub folder with all flooding data (GeoTiff)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Okavango" /><category term="Landsat quicklooks" /><category term="AVHRR" /><category term="ATSR" /><category term="flooding" /><summary type="html">AVHRR, ATSR and Landsat low resolution image data used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A" /></entry><entry><title type="html">Landsat satellite image data</title><link href="http://localhost:4000/blog/oka-landsat/" rel="alternate" type="text/html" title="Landsat satellite image data" /><published>2019-07-15T11:27:00+02:00</published><updated>2019-07-15T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-landsat</id><content type="html" xml:base="http://localhost:4000/blog/oka-landsat/">&lt;style&gt;
 table {
     width:30%;
 }

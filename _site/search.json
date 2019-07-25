@@ -2,9 +2,17 @@
 
   
     {
-      "title"			: "Okavango ecoregions",
+      "title"			: "Ecoregion classification",
       "link"			: "http://localhost:4000/blog/oka-landcover/",
       "excerpt"		: "Ecoregion classification of the Okavango Delta, Botswana"
+    }
+  
+
+  
+    ,{
+      "title"			: "Geophysiological regions",
+      "link"			: "http://localhost:4000/blog/oka-physiography/",
+      "excerpt"		: "Geophysiological regions of the Okavango swammps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
     }
   
 

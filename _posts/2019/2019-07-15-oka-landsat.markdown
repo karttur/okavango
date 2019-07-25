@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Landsat satellite image data
-modified: '2019-07-17 11:27'
+modified: '2019-07-15 11:27'
 categories: blog
 excerpt: "Landsat satellite image data that was used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa."
 tags:
@@ -9,7 +9,7 @@ tags:
   - Landsat TM
   - pleasing
 image: avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
-date: '2019-07-17 11:27'
+date: '2019-07-15 11:27'
 comments: true
 share: true
 figure1: oka-tiles_wrs2_okaswamps_0_0

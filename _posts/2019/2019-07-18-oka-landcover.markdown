@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Okavango ecoregions
+title: Ecoregion classification
 modified: '2019-07-18 11:27'
 categories: blog
 excerpt: "Ecoregion classification of the Okavango Delta, Botswana"

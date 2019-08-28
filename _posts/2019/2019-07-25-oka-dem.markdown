@@ -1,0 +1,283 @@
+---
+layout: post
+title: Regional topography
+modified: '2019-07-18 11:27'
+categories: blog
+excerpt: "Creating a regional Digital Elevation Model for the Okavango Delta, Botswana"
+tags:
+  - Okavango
+  - topography
+  - tectonics
+  - Earth mocvements
+image: avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
+date: '2019-07-18 11:27'
+comments: true
+share: true
+---
+
+Over a distance of 240 km, from the top of the Panhandle entry channel and down to the Kunyere fault defining the terminal end of the alluvial fan, the drop in elevation over the Okavango swamps, Botswana, is approximately 60 m, Figure 1. The topographic variations in the surface of the Okavango Alluvial Fan is extremely subtle but still defines the distribution of water and wetlands over the surface of the Alluvial Fan. Over decades to centuries changes in topography, driven both by the sedimentation associated with the active channels and tectonic movements, alter the topography and consequently also the distribution of wetlands.
+
+I spent my Post Doc years (1999-2001) at University of the Witwatersrand (Johannesburg, South Africa) studying the Okavango swamps. My supervisor, prof. T.S. McCarthy got hold of data from a gravity survey over Botswana that also included differential GPS elevations. From that data we constructed a topographic map over the larger Okavango area. This post summarizes the study on the topography of the Okavango Delta, and also links to the data presented in the published article. If you are only interested in the data, the links to the online repositories are given at the end of this post.
+
+<figure>
+<img src="../../images/oka-tiles_wrs2_okaswamps_0_0.jpg">
+<figcaption> Figure 1. The Okavango Delta, Botswana; the figure shows the Landsat scenes used the ecoregion classification and the small inset images also shows the Okavango River Basin.</figcaption>
+</figure>
+
+## Introduction
+
+In the late 1990's the Geological Survey of Botswana used differential GPS (with cm accuracy) as part of a survey of the gravity of North-Eastern Botswana. The elevation data derived from this survey formed the baseline data for creating a Digital Elevation Model (DEM) and analysing [The topography of the Okavango Delta, Botswana, and its tectonic and sedimentological implications. (Gumbricht, T. McCarthy, T.S. & Merry, C.L., 2001) South African Journal of Geology, 104 (3) , 243-264.](http://doi.org/10.2113/1040243).
+
+## Method summary
+
+Different datasets of point measured elevation data were assembled, quality checked and then transformed to the WGS84 datum and finally converted to orthometric heights using EGM96 (Earth Gravity Model 1996). Combining all the datasets, the larger Okavango region was divided along major fault lines, resulting in 4 sub-regions. For the sub-regions, individual DEMs where interpolated using kriging with manually fitted variograms, while also estimating the krigning standard deviation. Using a spatial filter kernel the four parts were smoothed across non-distinct boundaries and then combined. Contour lines were extracted and overlaid the [natural color landsat composite](../oka-landsat/). Combining the DEM and the contour lines with other data allowed us to analyze the topography of the palaeo-shorlines of lakes Ngami, Mababe and Mkgadikgadi, the relative elevation of water channels on the alluvial fan as well as other topographic relations.  
+
+### Elevation datasets
+
+Four different sources of point elevation data were used for interpolating a DEM in 500 m spatial resolution, table 1.
+
+<figcaption>
+Table 1. Point elevation datasets used for creating the 500 m resolution Digital Elevation Model over the larger Okavango area.
+</figcaption>
+
+|  Dataset  | Description |  
+|:---------------------|:----------------------|
+| [gps-grav-survey](../../docs/dem/input/elev-pt_gps-grav-survey_botswana_2000_bw-geosurvey.zip) | Gravity survey with differential GPS positioning<br>Geological Survey of Botswana |
+| [beacons](../../docs/dem/input/elev-pt_beacons_botswana_0_bw-maps.zip) | Trigonemetric beacons identified from official Botswana maps |
+| UCT-GPS | Differential GPS positioning along major channels of the Okavango swamps<br> University of Cape Town |
+| DCW |  Beacon heights in the Namibian part of Linyanti<br>Digital Chart of the World (DCW) |
+
+### Regionalization
+
+The larger Okavango region is clearly defined by fault lines, either trending North-West to South East (the Panhandle tectonic graben); or perpendicular to this direction and trending North-East to South-West (Gumare fault defining the transition from the Panhandle to the Okavango Alluvial Fan and the Kunyere and Thamalakane fault lines defining the terminal end of the alluvial fan). To accommodate the variations in elevation across the fault lines, we divided the larger Okavango area into four sub-regions for the geo-statistical interpolation, tables 2 and 3.
+
+<figcaption>
+Table 2. Sub-regions used for constructing the DEM over the larger Okavango area
+</figcaption>
+
+|  Region  | Rationale |  
+|:---------------------|:----------------------|
+| NW-drylands | Region North-West of the Kunyere fault line,<br> excluding the Okavango Wetlands. |
+| SE-drylands   | Region South-East of the Thamalakane fault line,<br> excluding the Boteti River Valley. |
+| Kunyere-trappa   | The region between the Kunyere and Thamalakane fault lines. |
+| Oka-wetlands | The area of maximum flooding in the Okavango wetlands<br> upstream of the Kunyere fault line (includes all channels<br> transgressing the Kunyere-trappa as well as the Boteti River Valley). |
+
+<figcaption>
+Table 3. Okavango data layers of fault lines, river channels and elevation  regionalizations. The regionalization layer was constructed from the fault lines and channels layers, plus the flooding mask presented in an earlier post. The data are available for download towards the end of this post, or you can click the Layer name int he table to download individual layers.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [fault-lines_karttur_okaswamps_0_v2001](../../docs/dem/support/fault-lines_karttur_okaswamps_0_v2001.zip) | Fault lines |
+| [rivers-channels_karttur_okaswamps_0_digitized](../../docs/dem/support/rivers-channels_karttur_okaswamps_0_digitized.zip) | River channels |
+| [geophysiology_wits_okaswamps_1994_pub](../../docs/geophysiology/geophysiology_wits_okaswamps_1994_pub.zip)| Geophysiological regions of the Okavango swmaps |
+| [elev-regions_karttur_okaswamps_0_4demcreate](../../docs/dem/support/elev-regions_karttur_okaswamps_0_4demcreate.zip) | Elevation regions |
+
+
+The "NW-drylands" region is intersected by the Panhandle and includes the relict dune-fields west of the Okavango wetlands. The Western side of the Panhandel is uplifted compared to the Eastern side and the relict dunes have heights of approximately 10 meters. These variations where not considered when interpolating the DEM, and consequently the theoretical errors in "NW-drylands" region are comparatively large. The "SW-drylands" is defined as the region South-East of the Thamalakane fault line. It is the most data-poor region and the elevation estimates are poor over some parts of this region. The parallel Kunyere and Thamalakane fault lines define a stair between the Okavango wetlands and the SE-drylands. This stair, or "trappa", define a third region: "kunyere-trappa". Finally the Okavango wetlands (the maximum flooding area - see [this](../oka-avhrr/) post) defines the central region: "oka-wetlands". This region also include all the channels draining the Okavango swamps across the Linyanti-trappa and the Boteti River valley.
+All regions have sections where the boundaries are less pronounced. For sections across sub-regions with no, or less, defined fault lines, nearby elevation points from the adjacent region were included in both regions spanning the boundary.
+
+In addition to creating a DEM for the larger Okavango region, we also created three DEMs related to the palaeo-lakes:
+
+- Ngami
+- Mababe
+- Mkgadikgadi
+
+All three are situated partly within and partly outside the area of the main map.
+
+#### North-West drylands
+
+The dryland region to the north west ("NW-drylands") of the Thamalakane/Kunyere fault line (Figure 2), excluding the Okavango swamps and spanning both sides of the Panhandle entry channel, was interpolated using three combined datasets; GPS elevations from the gravity survey, beacon heights drawn from Botswana maps and heights from the Digital Chart of the World (DCW), table 3.
+
+<figcaption>
+Table 3. Elevation point data sources used for interpolating the region "NW-drylands" (see figure 1). All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [elev-pt-subreg_gps-grav-survey_okaswamps_2000_nw-drylands](../../docs/dem/input/elev-pt-subreg_gps-grav-survey_okaswamps_2000_nw-drylands.zip) | GPS surveyed elevations |
+| [elev-pt-subreg_beacons_okaswamps_2000_nw-drylands](../../docs/dem/input/elev-pt-subreg_beacons_okaswamps_2000_nw-drylands.zip) | Trigonometric beacon heights |
+| [elev-pt-subreg_dcw_okaswamps_2000_nw-drylands](../../docs/dem/input/elev-pt-subreg_dcw_okaswamps_2000_nw-drylands.zip) | Digital Chart of World heights |
+
+#### South-East drylands
+
+The south eastern region ("SE-drylands"), on the uplifted side of the Thamalakane fault and intersected by the Boteti valley, was interpolated using GPS elevations from the gravity survey and beacons identified from Botswana maps, table 4.
+
+<figcaption>
+Table 4. Elevation point data sources used for interpolating the region "SE-drylands" (see figure 2). All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the bottom of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [elev-pt-subreg_gps-grav-survey_okaswamps_2000_se-drylands](../../docs/dem/input/elev-pt-subreg_gps-grav-survey_okaswamps_2000_se-drylands.zip) | GPS surveyed elevation |
+| [elev-pt-subreg_beacons_okaswamps_2000_se-drylands](../../docs/dem/input/elev-pt-subreg_beacons_okaswamps_2000_se-drylands.zip) | Trigonometric beacon heights |
+
+#### Kunyere trappa region
+
+The region between the Kunyere and Thamalakane fault lines ("kunyere-trappa") (figure 2) was interpolated separately. The region is intersected by the rivers draining the distal arms of the Okavango swamps before they join the Thamalakane River (defined by the Thamalakane fault line). The "Kunyere-trappa" region was interpolated using GPS elevations from the GPS/gravity survey and trigonometric beacon heights from Botswana maps, table 5.
+
+<figcaption>
+Table 5. Elevation point data sources used for interpolating the region "kunyere-trappa" (see figure 2). All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the bottom of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [elev-pt-subreg_gps-grav-survey_okaswamps_2000_kunyere-trappa](../../docs/dem/input/elev-pt-subreg_gps-grav-survey_okaswamps_2000_kunyere-trappa.zip) | GPS surveyed elevation |
+| [elev-pt-subreg_beacons_okaswamps_2000_kunyere-trappa](../../docs/dem/input/elev-pt-subreg_beacons_okaswamps_2000_kunyere-trappa.zip) | Trigonometric beacon heights |
+
+#### Okavango wetlands region
+
+The last, central, region is the maximum flood area (see [this](../oka-avhrr/) post) of the Okavango wetlands, and the region is called "oka-wetlands". To interpolate this region we used three different data sets; GPS elevations the gravity survey, beacons from Botswana maps and GPS points collected by University of Cape Town (UCT), table 6.
+
+<figcaption>
+Table 6. Elevation point data sources used for interpolating the region "oka-wetlands" (see figure 2). All the data layers are projected to SUTM 34 using the WGS84 datum  All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [elev-pt-subreg_gps-grav-survey_okaswamps_2000_oka-wetlands](../../docs/dem/input/elev-pt-subreg_gps-grav-survey_okaswamps_2000_oka-wetlands.zip) | GPS surveyed elevation |
+| [elev-pt-subreg_beacons_okaswamps_2000_oka-wetlands](../../docs/dem/input/elev-pt-subreg_beacons_okaswamps_2000_oka-wetlands.zip) | Trigonometric beacon heights |
+| [elev-pt-subreg_gps-uct_okaswamps_2000_oka-wetlands](../../docs/dem/input/elev-pt-subreg_gps-uct_okaswamps_2000_oka-wetlands.zip)  | GPS survey by University of Cape Town |
+
+#### Unused trigonometric heights
+
+Not all trigonometric beacon heights identified in various Botswana maps were used. For completeness, also the unused elevation points are supplied here, table 7.
+
+<figcaption>
+Table 7. Identified, but unused, trigonometric beacon heights. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [elev-pt-unused_beacons_okaswamps_2000_all-regions](../../docs/dem/input/elev-pt-unused_beacons_okaswamps_2000_all-regions.zip) | Unused beacon heights |
+
+### Okavango DEM
+
+The DEM for the larger Okavango region was created by combining the four regional DEMs and then smoothing the compositional DEM across areas with no pronounced faults (for details please see the [original article](http://doi.org/10.2113/1040243)). A few pronounced heights and troughs were added, and the elevation contour lines extracted. The final DEM, as a 500 m raster and as contour lines are listed and available for download in table 8.
+
+<figcaption>
+Table 8. Elevation data layers available for the larger Okavango region. All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| **Vector layer** (shape file)  |   |
+| [elev-contours_karttur_okaswamps_0_v2001](../../docs/dem/okaswamps/elev-contours_karttur_okaswamps_0_v2001.zip) | Elevation contour lines for the larger Okavango area. |
+| **Raster layers** (GeoTiff files)  |
+| [dem_karttur_okaswamps_0_v2001](../../docs/dem/okaswamps/dem_karttur_okaswamps_0_v2001.tif.zip) | Geo-interpoalted DEM in 500 m spatial resolution |
+| [dem-sd_karttur_okaswamps_0_v2001](../../docs/dem/okaswamps/dem-sd_karttur_okaswamps_0_v2001.tif.zip) | Estimated error (1 standard deviation)<br> of the interpolated DEM |
+
+### The Okavango Alluvial Fan
+
+The Okavango Alluvial Fan (Figure 3), forms an almost perfectly shaped cone where small variations potentially could reveal sedimentation, erosion or tectonic movements. To compare the interpolated DEM with a theoretical cone, several spatial entities related to the Okavango Alluvial Fan were identified or created, table 9.
+
+<figcaption>
+Table 9. Spatial data layers associated with Okavango the Alluvial Fan. All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| [alluvial-fan-apex_karttur_okaswamps_0_v2001](../../docs/dem/alluvialfan/alluvial-fan-apex_karttur_okaswamps_0_v2001.zip) | The apex (beginning, point from spreading out)<br> of the Okavango Alluvial Fan |
+| [alluvial-fan_karttur_okaswamps_0_v2001](../../docs/dem/alluvialfan/alluvial-fan_karttur_okaswamps_0_v2001.zip) | The surface area of the Okavango Alluvial Fan |
+| [alluvial-fan-isodist_karttur_okaswamps_0_fromapex](../../docs/dem/alluvialfan/alluvial-fan-isodist_karttur_okaswamps_0_fromapex.zip) | Iso-distance lines (25 km interval) from the apex |
+| [alluvial-fan-cone-dem_karttur_okasvamps_0_v2001](../../docs/dem/alluvialfan/alluvial-fan-cone-dem_karttur_okasvamps_0_v2001.zip) | Idealized, perfectly cone shaped DEM<br> over the Okavango Alluvial Fan |
+| [alluvial-fan-residual-dem_karttur_okasvamps_0_v2001](../../docs/dem/alluvialfan/alluvial-fan-residual-dem_karttur_okasvamps_0_v2001.zip) | elevation difference between the idealized and<br> the interpolated DEMs over the Okavango Alluvial Fan  |
+
+### Lake Ngami Region
+
+As noted above, a special DEM was created for Lake Ngami and its surroundings. The palaeo shorelines of Lake Ngami were omitted from the DEM, that thus shows the base level of these shorelines. Extracting the base levels we could analyse the topography of the shorelines. The results indicate that the palaeo shorelines are tilted towards north-east, indicating tectonic movements (sagging) since palaeo Lake Ngami dried out. All the data for the Lake Ngami DEM analysis are listed in table 10.
+
+<figcaption>
+Table 10. Spatial data layers available for the Lake Ngami Region. All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| **Vector layers** (shape files)  |   |
+| [centreline_karttur_lakengami_0_v2001](../../docs/dem/lakengami/centreline_karttur_lakengami_0_v2001.zip) | The central axis of Lake Ngami<br> (for analysing tilting)  |
+| [elev-contours_karttur_lakengami_0_v2001](../../docs/dem/lakengami/elev-contours_karttur_lakengami_0_v2001.zip) | Elevation contour lines for the Lake Ngami basin, <br> _disregarding_ any ridges (i.e. palaeo-shorelines)<br> or channels. |
+| [elev-pt-palaeo-shore_karttur_lakengami_0_v2001](../../docs/dem/lakengami/elev-pt-palaeo-shore_karttur_lakengami_0_v2001.zip) | Elevation point data (best estimate and error)<br>  extracted from the generated DEM (GeoTiff)<br>for the base level of Lake Ngami palaeo-shorelines.  |
+| [elev-pt_beacons_lakengami_0_frommap](../../docs/dem/lakengami/elev-pt_beacons_lakengami_0_frommap.zip) | Input elevation data from existing beacons,<br> used for the geo-interolation  |
+| [elev-pt_gps_lakengami_1999_grav-survey](../../docs/dem/lakengami/elev-pt_gps_lakengami_1999_grav-survey.zip) | Input elevation data from a precision<br>gravity/GPS survey, used for the geo-interolation  |
+| [isodist_karttur_lakengami_0_centreline](../../docs/dem/lakengami/isodist_karttur_lakengami_0_centreline.zip) | Distances along the central axis (see top row)<br> for defining proximity (tilting) along palaeo-shoreliens |
+| [palaeo-shore-line_karttur_lakengami_0_v2001](../../docs/dem/lakengami/palaeo-shore-line_karttur_lakengami_0_v2001.zip) | Lake Ngami palaeo shorlines<br> interpreted from [Landsat image](../oka-landsat/)  |
+| **Raster layers** (GeoTiff files)  |
+| [dem_karttur_lakengami_0_v2001](../../docs/dem/lakengami/dem_karttur_lakengami_0_v2001.tif.zip) | Geo-interpoalted DEM in 500 m spatial resolution |
+| [dem-sd_karttur_lakengami_0_v2001](../../docs/dem/lakengami/dem-sd_karttur_lakengami_0_v2001.tif.zip) | Estimated error (1 standard deviation) of the interpolated DEM |
+| [natcol_lt05_lakengami_199407_byte](../../docs/dem/lakengami/natcol_lt05_lakengami_199407_byte.tif.zip) | Natural color Landsat TM image |
+
+### Mababe Depression Region
+
+The special DEM for the Mababe depression was done using only the gravity GPS surveyed elevations points. The DEM for the Mababe depression excludes all local ridges, including the palaeo shoreline defining palaeo Lake Mababe. Water channels, including the drainage connecting Mababe Depression with both the Linyanti and Okavango swamps are also excluded.
+
+The results indicate that the palaeo shorelines are tilted towards south-west, which is exactly opposite the tilting of the shorelines of Lake Ngami. This suggests that the region between the two palaeo-lakes must have sunken since the lakes died out. In the [scientific article](http://doi.org/10.2113/1040243) we speculate that this depends on sagging due to the shear weight of the sediments deposited over the Okavango Alluvial Fan. All the data for the Mababe depression DEM are listed in table 11.
+
+<figcaption>
+Table 11. Spatial data layers available for the Mababe Depression Region. All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| **Vector layers** (shape files)  |   |
+| [centreline_karttur_mababedepr_0_v2001](../../docs/dem/mababedepr/centreline_karttur_mababedepr_0_v2001.zip) | The central axis of Mababe Depression<br> (for analysing tilting)  |
+| [elev-contours_karttur_mababedepr_0_v2001](../../docs/dem/mababedepr/elev-contours_karttur_mababedepr_0_v2001.zip) | Elevation contour lines for the Mababe Depression, <br> _disregarding_ any ridges (i.e. palaeo-shorelines)<br> or channels. |
+| [elev-pt-palaeo-shore_karttur_mababedepr_0_v2001](../../docs/dem/mababedepr/elev-pt-palaeo-shore_karttur_mababedepr_0_v2001.zip) | Elevation point data (best estimate and error)<br>  extracted from the generated DEM (GeoTiff)<br>for the base level of Mababe Depression palaeo-shorelines.  |
+| [elev-pt_gps_mababedepr_1999_grav-survey](../../docs/dem/mababedepr/elev-pt_gps_mababedepr_1999_grav-survey.zip) | Input elevation data from a precision<br>gravity/GPS survey, used for the geo-interolation  |
+| [isodist_karttur_mababedepr_0_centreline](../../docs/dem/mababedepr/isodist_karttur_mababedepr_0_centreline.zip) | Distances along the central axis (see top row)<br> for defining proximity (tilting) along palaeo-shoreliens |
+| [palaeo-shore-line_karttur_mababedepr_0_v2001](../../docs/dem/mababedepr/palaeo-shore-line_karttur_mababedepr_0_v2001.zip) | Mababe Depression palaeo shorlines<br> interpreted from [Landsat image](../oka-landsat/)  |
+| **Raster layers** (GeoTiff files)  |
+| [dem_karttur_mababedepr_0_v2001](../../docs/dem/mababedepr/dem_karttur_mababedepr_0_v2001.tif.zip) | Geo-interpoalted DEM in 500 m spatial resolution |
+| [dem-sd_karttur_mababedepr_0_v2001](../../docs/dem/mababedepr/dem-sd_karttur_mababedepr_0_v2001.tif.zip) | Estimated error (1 standard deviation) of the interpolated DEM |
+| [natcol_lt05_mababedepr_199407_byte](../../docs/dem/mababedepr/natcol_lt05_mababedepr_199407_byte.tif.zip) | Natural color Landsat TM image |
+
+### Mkgadikgadi Ridge Region
+
+The special DEM for the Mkgadikgadi Ridge was done using only the gravity GPS surveyed elevations points. The DEM for the Mkgadikgadi Ridge region excludes all local ridges, including the Mkgadikgadi Ridge (Lake Mkgadikgadi palaeo shoreline) itself. Also water channels, including the drainage along the Boteti River are excluded.
+
+The results indicate that the palaeo shoreline is not level with the geoid but has a dip that is at its deepest exactly along the central axis of the Okavango Alluvial Fan. This corroborates the hypothesis that sagging has caused the tectonic depressions along the central axis of the Okavango Alluvial Fan, including the Panhandle entry channel.
+
+When restoring the data in July 2019 (almost 20 years after the work was done), the layer for the estimated DEM confidence level (dem-sd_karttur_mkgadiridge_0_pub.tif) had one row and one column less compared to the interpolated DEM itself (dem_karttur_mkgadiridge_0_pub.tif). I could not find the reason, and the layers available thus differ in size. All the data for the Mkgadikgadi Ridge Region DEM are listed in table 12.
+
+<figcaption>
+Table 12. Spatial data layers available for the Mkgadikgadi Ridge Region. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| **Vector layers** (shape files)  |   |
+
+| [elev-contours_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/elev-contours_karttur_mkgadiridge_0_v2001.zip) | Elevation contour lines for the Makgadikgadi Ridge region, <br> _disregarding_ any ridges (i.e. palaeo-shorelines)<br> or channels. |
+| [elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001.zip) | Elevation point data (best estimate and error)<br>  extracted from the generated DEM (GeoTiff)<br>for the base level of Makgadikgadi [id]: url "title"idge (palaeo-shoreline).  |
+| [elev-pt_gps_mkgadiridge_1999_grav-survey](../../docs/dem/mkgadiridge/elev-pt_gps_mkgadiridge_1999_grav-survey.zip) | Input elevation data from a precision<br>gravity/GPS survey, used for the geo-interolation  |
+| [isodist_karttur_mkgadiridge_0_paleoshoreline](../../docs/dem/mkgadiridge/isodist_karttur_mkgadiridge_0_paleoshoreline.zip) | Distances along the palaeo shore line<br> for defining proximity (tilting)  |
+| [palaeo-shore-line_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/palaeo-shore-line_karttur_mkgadiridge_0_v2001.zip) | Makgadikgadi palaeo shorlines<br> interpreted from [Landsat image](../oka-landsat/)  |
+| **Raster layers** (GeoTiff files)  |
+| [dem_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/dem_karttur_mkgadiridge_0_v2001.tif.zip) | Geo-interpoalted DEM in 500 m spatial resolution |
+| [dem-sd_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/dem-sd_karttur_mkgadiridge_0_v2001.tif.zip) | Estimated error (1 standard deviation) of the interpolated DEM |
+| [natcol_lt05_mkgadiridge_199407_byte](../../docs/dem/mkgadiridge/natcol_lt05_mkgadiridge_199407_byte.tif.zip) | Natural color Landsat TM image |
+
+### Okavango swamps water level DEM
+
+The survey campaigns conducted by University of Cape Town (UCT) during 1994, 1995, 1996 and 1998 also included measurements of the elevation of surface water, table 13. The 1995 campaign was the most extensive. Using sites with overlapping elevations, all the UCT surface water level data was linearly transferred to represent the 1995 situation. The adjusted elevation data was then used for constructing a surface water table DEM for the Okavango wetlands, table 13.
+
+|  Layer name  | Layer content |  
+|:---------------------|:----------------------|
+| **Vector layers** (shape files)  |   |
+| [elev-pt-water_gps-uct_okaswamps_1994_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1994_v2001.zip) | Water surface elevation from the UCT 1994 campaign. |
+| [elev-pt-water_gps-uct_okaswamps_1995_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1995_v2001.zip) | Water surface elevation from the UCT 1995 campaign. |
+| [elev-pt-water_gps-uct_okaswamps_1996_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1996_v2001.zip) | Water surface elevation from the UCT 1996 campaign. |
+| [elev-pt-water_gps-uct_okaswamps_1998_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1998_v2001.zip) | Water surface elevation from the UCT 1998 campaign. |
+|  **Raster layer** (GeoTiff files) |   |
+| [dem-water-surface_karttur_okaswamp_1995_v2001](../../docs/dem/watersurface/dem-water-surface_karttur_okaswamp_1995_v2001.tif.zip) | DEM for the Okavango water table |
+
+## Resources
+
+[**Elevation point data used as input for generating DEM**](../../docs/dem/input/).
+
+[**Water surface elevation**](../../docs/dem/surfacewater/).
+
+[**Geophysiological regions**](https://github.com/karttur/okavango/tree/gh-pages/docs/geophysiology/).
+
+## Acknowledgement
+
+The work was done as part on an international co-operation within the Okavango Research Group headed by prof. T.S.McCarthy, Department of Geology, Wits University. My post doctoral scholarship was financed by the Swedish Royal Academy of Sciences.

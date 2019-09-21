@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-21T23:14:07+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-21T23:25:10+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;../../images/oka-tiles_wrs2_okaswamps_0_0.jpg&quot; /&gt;
@@ -1555,65 +1555,20 @@ Table 9. Spatial data layers associated with the Okavango Alluvial Fan. All the 
 Table 10. Spatial data layers available for the Lake Ngami Region. All the data layers are projected to SUTM 34 using the WGS84 datum. All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
 &lt;/figcaption&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Layer name&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Layer content&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Vector layers&lt;/strong&gt; (shape files)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/centreline_karttur_lakengami_0_v2001.zip&quot;&gt;centreline_karttur_lakengami_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;The central axis of Lake Ngami&lt;br /&gt; (for analysing tilting)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/elev-contours_karttur_lakengami_0_v2001.zip&quot;&gt;elev-contours_karttur_lakengami_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Elevation contour lines for the Lake Ngami basin, &lt;br /&gt; &lt;em&gt;disregarding&lt;/em&gt; any ridges (i.e. palaeo-shorelines)&lt;br /&gt; or channels.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/elev-pt-palaeo-shore_karttur_lakengami_0_v2001.zip&quot;&gt;elev-pt-palaeo-shore_karttur_lakengami_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Elevation point data (best estimate and error)&lt;br /&gt;  extracted from the generated DEM (GeoTiff)&lt;br /&gt;for the base level of Lake Ngami palaeo-shorelines.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/elev-pt_beacons_lakengami_0_frommap.zip&quot;&gt;elev-pt_beacons_lakengami_0_frommap&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Input elevation data from existing beacons,&lt;br /&gt; used for the geo-interolation&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/elev-pt_gps_lakengami_1999_grav-survey.zip&quot;&gt;elev-pt_gps_lakengami_1999_grav-survey&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Input elevation data from a precision&lt;br /&gt;gravity/GPS survey, used for the geo-interolation&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/isodist_karttur_lakengami_0_centreline.zip&quot;&gt;isodist_karttur_lakengami_0_centreline&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Distances along the central axis (see top row)&lt;br /&gt; for defining proximity (tilting) along palaeo-shoreliens&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/palaeo-shore-line_karttur_lakengami_0_v2001.zip&quot;&gt;palaeo-shore-line_karttur_lakengami_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Lake Ngami palaeo shorlines&lt;br /&gt; interpreted from &lt;a href=&quot;../oka-landsat/&quot;&gt;Landsat image&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Raster layers&lt;/strong&gt; (GeoTiff files)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/dem_karttur_lakengami_0_v2001.tif.zip&quot;&gt;dem_karttur_lakengami_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Geo-interpoalted DEM in 500 m spatial resolution&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/dem-sd_karttur_lakengami_0_v2001.tif.zip&quot;&gt;dem-sd_karttur_lakengami_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Estimated error (1 standard deviation) of the interpolated DEM&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/lakengami/natcol_lt05_lakengami_199407_byte.tif.zip&quot;&gt;natcol_lt05_lakengami_199407_byte&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Natural color Landsat TM image&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;| Layer name                                                                                                                    | Layer content                                                                                                                                         |
+|:——————————————————————————————————————————|:——————————————————————————————————————————————————|
+| &lt;strong&gt;Vector layers&lt;/strong&gt; (shape files)                                                                                               |                                                                                                                                                       |
+| [centreline_karttur_lakengami_0&lt;em&gt;v2001](../../docs/dem/lakengami/centreline_karttur_lakengami_0_v2001.zip)                     | The central axis of Lake Ngami&lt;br /&gt; (for analysing tilting)                                                                                            |
+| &lt;a href=&quot;../../docs/dem/lakengami/elev-contours_karttur_lakengami_0_v2001.zip&quot;&gt;elev-contours_karttur_lakengami_0_v2001&lt;/a&gt;               | Elevation contour lines for the Lake Ngami basin, &lt;br /&gt; _disregarding&lt;/em&gt; any ridges (i.e. palaeo-shorelines)&lt;br /&gt; or channels.                            |
+| &lt;a href=&quot;../../docs/dem/lakengami/elev-pt-palaeo-shore_karttur_lakengami_0_v2001.zip&quot;&gt;elev-pt-palaeo-shore_karttur_lakengami_0_v2001&lt;/a&gt; | Elevation point data (best estimate and error)&lt;br /&gt;  extracted from the generated DEM (GeoTiff)&lt;br /&gt;for the base level of Lake Ngami palaeo-shorelines. |
+| &lt;a href=&quot;../../docs/dem/lakengami/elev-pt_beacons_lakengami_0_frommap.zip&quot;&gt;elev-pt_beacons_lakengami_0_frommap&lt;/a&gt;                       | Input elevation data from existing beacons,&lt;br /&gt; used for the geo-interolation                                                                         |
+| &lt;a href=&quot;../../docs/dem/lakengami/elev-pt_gps_lakengami_1999_grav-survey.zip&quot;&gt;elev-pt_gps_lakengami_1999_grav-survey&lt;/a&gt;                 | Input elevation data from a precision&lt;br /&gt;gravity/GPS survey, used for the geo-interolation                                                            |
+| &lt;a href=&quot;../../docs/dem/lakengami/isodist_karttur_lakengami_0_centreline.zip&quot;&gt;isodist_karttur_lakengami_0_centreline&lt;/a&gt;                 | Distances along the central axis (see top row)&lt;br /&gt; for defining proximity (tilting) along palaeo-shoreliens                                           |
+| &lt;a href=&quot;../../docs/dem/lakengami/palaeo-shore-line_karttur_lakengami_0_v2001.zip&quot;&gt;palaeo-shore-line_karttur_lakengami_0_v2001&lt;/a&gt;       | Lake Ngami palaeo shorlines&lt;br /&gt; interpreted from &lt;a href=&quot;../oka-landsat/&quot;&gt;Landsat image&lt;/a&gt;                                                                     |
+| &lt;strong&gt;Raster layers&lt;/strong&gt; (GeoTiff files)                                                                                             |                                                                                                                                                       |
+| &lt;a href=&quot;../../docs/dem/lakengami/dem_karttur_lakengami_0_v2001.tif.zip&quot;&gt;dem_karttur_lakengami_0_v2001&lt;/a&gt;                               | Geo-interpoalted DEM in 500 m spatial resolution                                                                                                      |
+| &lt;a href=&quot;../../docs/dem/lakengami/dem-sd_karttur_lakengami_0_v2001.tif.zip&quot;&gt;dem-sd_karttur_lakengami_0_v2001&lt;/a&gt;                         | Estimated error (1 standard deviation) of the interpolated DEM                                                                                        |
+| &lt;a href=&quot;../../docs/dem/lakengami/natcol_lt05_lakengami_199407_byte.tif.zip&quot;&gt;natcol_lt05_lakengami_199407_byte&lt;/a&gt;                       | Natural color Landsat TM image                                                                                                                        |&lt;/p&gt;
 &lt;h3 id=&quot;mababe-depression-region&quot;&gt;Mababe Depression Region&lt;/h3&gt;
 
 &lt;p&gt;The special DEM for the Mababe depression was done using only the gravity GPS surveyed elevations points. The DEM for the Mababe depression excludes all local ridges, including the palaeo shoreline defining palaeo Lake Mababe. Water channels, including the drainage connecting Mababe Depression with both the Linyanti and Okavango swamps are also excluded.&lt;/p&gt;

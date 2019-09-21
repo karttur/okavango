@@ -205,7 +205,6 @@ Table 10. Spatial data layers available for the Lake Ngami Region. All the data 
 | [dem_karttur_lakengami_0_v2001](../../docs/dem/lakengami/dem_karttur_lakengami_0_v2001.tif.zip)                               | Geo-interpoalted DEM in 500 m spatial resolution                                                                                                      |
 | [dem-sd_karttur_lakengami_0_v2001](../../docs/dem/lakengami/dem-sd_karttur_lakengami_0_v2001.tif.zip)                         | Estimated error (1 standard deviation) of the interpolated DEM                                                                                        |
 | [natcol_lt05_lakengami_199407_byte](../../docs/dem/lakengami/natcol_lt05_lakengami_199407_byte.tif.zip)                       | Natural color Landsat TM image                                                                                                                        |
-
 ### Mababe Depression Region
 
 The special DEM for the Mababe depression was done using only the gravity GPS surveyed elevations points. The DEM for the Mababe depression excludes all local ridges, including the palaeo shoreline defining palaeo Lake Mababe. Water channels, including the drainage connecting Mababe Depression with both the Linyanti and Okavango swamps are also excluded.

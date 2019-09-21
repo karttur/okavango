@@ -139,7 +139,7 @@ The full resolution poster is available [here](https://karttur.github.io/profess
 
 ## Resources
 
-[GitHub folder Full resolution ecoregion classification over the Okavango Swamps](https://github.com/karttur/okavango/tree/gh-pages/docs/landcover)
+[GitHub folder with GeoTiff of ecoregion classification](https://github.com/karttur/okavango/tree/gh-pages/docs/landcover)
 
 ## Acknowledgement
 

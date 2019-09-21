@@ -28,8 +28,8 @@ At the time of my postdoc, Landsat images were not available for free but carrie
 
 <figcaption> Table 1. Landsat scenes used for my postdoc studies on the Okavango swamps, Botswana. </figcaption>
 
-| Scene   | Acquisition date |
-|:--------|:----------------:|
+| Scene    | Acquisition date |
+|:---------|:----------------:|
 | p174r073 |     19940801     |
 | p174r074 |     19940801     |
 | p175r073 |     19940701     |
@@ -57,4 +57,4 @@ The pleasing Landsat composite is available as a single band (paletted) GeoTiff 
 
 ## Resources
 
-[**Natural color ("pleasing") composite over the Okavango Swamps**](https://github.com/karttur/okavango/tree/gh-pages/docs/pleasing). The image is a zipped GeoTiff at 28.5 m spatial resolution and projected to UTM 34 south (EPSG:32734). It is in byte format and created from a dithered red-green-blue (RGB) composite that in turn was constructed using a Brovey transformation and the four Landsat TM scenes listed above.
+[GitHub folder with Natural color ("pleasing") Landsat composite over the Okavango Swamps](https://github.com/karttur/okavango/tree/gh-pages/docs/pleasing). The image is a zipped GeoTiff at 28.5 m spatial resolution and projected to UTM 34 south (EPSG:32734). It is in byte format and created from a dithered red-green-blue (RGB) composite that in turn was constructed using a Brovey transformation and the four Landsat TM scenes listed above.

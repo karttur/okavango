@@ -2,7 +2,7 @@
 layout: post
 title: Okavanga spatial data organization
 modified: '2019-07-13 11:27'
-categories: blog
+categories: article
 excerpt: "Re-organization of the Okavango spatial data created during my post-doc period at University of the Witwatersrand, Johannesburg, South Africa, 1999-2001."
 tags:
   - Okavango
@@ -23,8 +23,8 @@ This is restricted to the four landsat scenes that we got from Anglo American, F
 
 <figcaption> Table 1. Landsat scenes used for my postdoc studies on the Okavango swamps, Botswana. </figcaption>
 
-| Scene   | Acquisition date |
-|:--------|:----------------:|
+| Scene    | Acquisition date |
+|:---------|:----------------:|
 | p174r073 |     19940801     |
 | p174r074 |     19940801     |
 | p175r073 |     19940701     |
@@ -290,12 +290,12 @@ Four different sources of point elevation data were used for interpolating a DEM
 Table 2. Point elevation datasets used for creating the 500 m resolution Digital Elevation Model over the larger Okavango area.
 </figcaption>
 
-|  Dataset  | description |  
-|:---------------------|:----------------------|
-| gps-grav-survey | Gravity survey with differential GPS positioning<br>Geological Survey of Botswana |
-| beacons | Trigonemetric beacons identified from official Botswana maps |
-| UCT-GPS | Differential GPS positioning along major channels of the Okavango swamps<br> University of Cape Town |
-| DCW |  Beacon heights in the Namibian part of Linyanti<br>Digital Chart of the World (DCW) |
+| Dataset         | description                                                                                          |
+|:----------------|:-----------------------------------------------------------------------------------------------------|
+| gps-grav-survey | Gravity survey with differential GPS positioning<br>Geological Survey of Botswana                    |
+| beacons         | Trigonemetric beacons identified from official Botswana maps                                         |
+| UCT-GPS         | Differential GPS positioning along major channels of the Okavango swamps<br> University of Cape Town |
+| DCW             | Beacon heights in the Namibian part of Linyanti<br>Digital Chart of the World (DCW)                  |
 
 The _gps-grav-survey_ is available under "./Okavango/oka-dem-fixed/dem_gen_areas_pts/dem_all_grav/dem_all_grav.shp", to import it call the python function _CheckFixDBFptElev_ (direct or via _CheckFixDBFptElevIni_). The expected attributes to find in the layer _dem_all_grav.shp_ are hardcoded in _CheckFixDBFptElev_ so you can not alter any input names. The _beacons_ dataset is available under "./Okavango/oka-dem-fixed/dem_ptdata/beacon_tm_ortho/beacon_tm_ortho.shp". The other datasets (_UCT-GPS_ and _DCW_) only covers a single subregion each and are available as sub-regional datasets.
 
@@ -307,12 +307,12 @@ The larger Okavango region is clearly defined by fault lines, but with incised r
 Table 3. Okavango data layers of fault lines, river channels and elevation  regionalizations.
 </figcaption>
 
-|  Layer name  | Layer content |  
-|:---------------------------------------|:----------------------|
-| [fault-lines_karttur_okaswamps_0_v2001](../../docs/dem/support/fault-lines_karttur_okaswamps_0_v2001.zip) | Fault lines |
-| [rivers-channels_karttur_okaswamps_0_digitized](../../docs/dem/support/rivers-channels_karttur_okaswamps_0_digitized.zip) | River channels |
-| [geophysiology_wits_okaswamps_1994_pub](../../docs/geophysiology/geophysiology_wits_okaswamps_1994_pub.zip)| Geophysiological regions of the Okavango swmaps |
-| [elev-regions_karttur_okaswamps_0_4demcreate](../../docs/dem/support/elev-regions_karttur_okaswamps_0_4demcreate.zip) | Elevation regions |
+| Layer name                                                                                                                | Layer content                                   |
+|:--------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
+| [fault-lines_karttur_okaswamps_0_v2001](../../docs/dem/support/fault-lines_karttur_okaswamps_0_v2001.zip)                 | Fault lines                                     |
+| [rivers-channels_karttur_okaswamps_0_digitized](../../docs/dem/support/rivers-channels_karttur_okaswamps_0_digitized.zip) | River channels                                  |
+| [geophysiology_wits_okaswamps_1994_pub](../../docs/geophysiology/geophysiology_wits_okaswamps_1994_pub.zip)               | Geophysiological regions of the Okavango swmaps |
+| [elev-regions_karttur_okaswamps_0_4demcreate](../../docs/dem/support/elev-regions_karttur_okaswamps_0_4demcreate.zip)     | Elevation regions                               |
 
 The original regionalization data was manually fixed in July 2019; the fault lines where updated and labels added, the river dataset was not updates but the regional layer was cleaned and the sub-regions joined to multi-polygons.
 

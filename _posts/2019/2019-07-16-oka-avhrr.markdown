@@ -116,7 +116,7 @@ Covering the whole of the Okavango Swamps from Landsat data requires four (4) La
 
 ### Monthly floodmasks
 
-Figure 5 shows all the complete monthly composite flood masks that we could create from Landsat quicklooks images. The earliest mask is from November 1972. The GeoTiff data is available for download [here](../../docs/flooding/floodmask_landsat-ql_okaswamps_1972-2000_oka-only.zip).
+Figure 5 shows all the complete monthly composite flood masks that we could create from Landsat quicklooks images. The earliest mask is from November 1972. The GeoTiff data are available for download [here](../../docs/flooding/floodmask_landsat-ql_okaswamps_1972-2000_oka-only.zip).
 
 <figure class="third">
      <a href="../../images/floodmask_landsat-ql_okaswamps_197211_oka-only.jpg"><img src="../../images/floodmask_landsat-ql_okaswamps_197211_oka-ql.jpg" alt="image"/></a>
@@ -226,9 +226,9 @@ The cross correlation maps above are available for download as GeoTiff files [he
 
 ## Flood frequency at high spatial resolution
 
-For the mapping and modeling that I wanted to do for the Okavango I needed a higher resolution flood frequency map compared to the 500 m to 1 km spatial resolution of the AVHRR and Landsat quicklooks. To achieve that I combined the flood frequency maps above with the high resolution [Landsat scenes](../oka-landsat/) that we had been given by Anglo American]. I then also digitized the river channels in the Okavango swamps and added data on the average flow and flow duration that I got access to. Combining all these sources I then constructed a flood frequency map at 28.5 m spatial resolution, exactly fitting the Landsat composition over the entire Okavango Delta. These two data sources were then the key resources for creating the [ecoregion map of the Okavango Delta, the subject of another post](../oka-landcover/).
+For the mapping and modeling that I wanted to do for the Okavango I needed a higher resolution flood frequency map compared to the 500 m to 1 km spatial resolution of the AVHRR and Landsat quicklooks. To achieve that I combined the flood frequency maps above with the high resolution [Landsat scenes](../oka-landsat/) that we had received from Anglo American. I then also digitized the river channels in the Okavango swamps and added data on the average flow and flow duration that I got access to. Combining all these sources I then constructed a flood frequency map at 28.5 m spatial resolution, exactly fitting the Landsat composition over the entire Okavango Delta. These two data sources were then the key resources for creating the [ecoregion map of the Okavango Delta, the subject of another post](../oka-landcover/).
 
-The full (28.5) resolution flood frequency map over the Okavango is available as a compressed GeoTiff [here](../../docs/flooding/floodfreq_multisource_okaswamps_1992-2000_28m.tif.zip). The map is projected to SUTM 34, and fits exactly with the Landsat composition and the land cover classification, each presented in other posts. Rather than cleaning the high resolution dataset I kept the suspected overestimations outside the actually swamp area. In the subsequent processing I instead applied a mask as applicable.
+The full (28.5) resolution flood frequency map over the Okavango is available as a compressed GeoTiff [here](../../docs/flooding/floodfreq_multisource_okaswamps_1992-2000_28m.tif.zip). The map is projected to SUTM 34, and fits exactly with the Landsat composition and the land cover classification, each presented in other posts. Rather than cleaning the high resolution dataset I kept the suspected overestimations outside the actually swamp area. In the subsequent processing I masked out wetlands.
 
 <figure>
 <img src="../../images/floodfreq_multisource_okaswamps_1992-2000_m.jpg">

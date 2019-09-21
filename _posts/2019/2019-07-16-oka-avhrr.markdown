@@ -1,9 +1,9 @@
 ---
 layout: post
-title: AVHRR, ATSR and Landsat quicklook images
+title: Flooding from AVHRR, ATSR and Landsat quicklook images
 modified: '2019-07-16 11:27'
 categories: blog
-excerpt: "AVHRR, ATSR and Landsat low resolution image data used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa."
+excerpt: "AVHRR, ATSR and Landsat low resolution image data used for creating the Okavango flooding maps during my postdoc period at University of the Witwatersrand in South Africa."
 tags:
   - Okavango
   - Landsat quicklooks

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Okavanga spatial data organization
+title: Okavango spatial data organization
 modified: '2019-07-13 11:27'
 categories: article
 excerpt: "Re-organization of the Okavango spatial data created during my post-doc period at University of the Witwatersrand, Johannesburg, South Africa, 1999-2001."
@@ -314,7 +314,7 @@ Table 3. Okavango data layers of fault lines, river channels and elevation  regi
 | [geophysiology_wits_okaswamps_1994_pub](../../docs/geophysiology/geophysiology_wits_okaswamps_1994_pub.zip)               | Geophysiological regions of the Okavango swmaps |
 | [elev-regions_karttur_okaswamps_0_4demcreate](../../docs/dem/support/elev-regions_karttur_okaswamps_0_4demcreate.zip)     | Elevation regions                               |
 
-The original regionalization data was manually fixed in July 2019; the fault lines where updated and labels added, the river dataset was not updates but the regional layer was cleaned and the sub-regions joined to multi-polygons.
+The original regionalization data were manually fixed in July 2019; the fault lines where updated and labels added, the river dataset was not updates but the regional layer was cleaned and the sub-regions joined to multi-polygons.
 
 ### Regionalized input elevation datasets
 

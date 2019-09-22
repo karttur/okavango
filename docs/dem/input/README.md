@@ -18,3 +18,4 @@ Details on the elevation point data are available in the post [Regional topograp
 | elev-pt-subreg_gps-grav-survey_okaswamps_2000_oka-wetlands   | GPS surveyed elevation                                                            |
 | elev-pt-subreg_beacons_okaswamps_2000_oka-wetlands           | Trigonometric beacon heights                                                      |
 | elev-pt-subreg_gps-uct_okaswamps_2000_oka-wetlands           | GPS survey by University of Cape Town                                             |
+| elev-pt-unused_beacons_okaswamps_2000_all-regions            | Unused beacon heights                                                             |

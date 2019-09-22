@@ -15,7 +15,7 @@ Details on the elevation data are available in the post [Regional topography](ht
 | elev-pt_beacons_lakengami_0_frommap            | Input elevation data from existing beacons,<br> used for the geo-interolation                                                                         |
 | elev-pt_gps_lakengami_1999_grav-survey         | Input elevation data from a precision<br>gravity/GPS survey, used for the geo-interolation                                                            |
 | isodist_karttur_lakengami_0_centreline         | Distances along the central axis (see top row)<br> for defining proximity (tilting) along palaeo-shoreliens                                           |
-| palaeo-shore-line_karttur_lakengami_0_v2001    | Lake Ngami palaeo shorlines<br> interpreted from [Landsat image](../oka-landsat/)                                                                     |
+| palaeo-shore-line_karttur_lakengami_0_v2001    | Lake Ngami palaeo shorlines<br> interpreted from Landsat image                                                                                        |
 | **Raster layers** (GeoTiff files)              |                                                                                                                                                       |
 | dem_karttur_lakengami_0_v2001                  | Geo-interpoalted DEM in 500 m spatial resolution                                                                                                      |
 | dem-sd_karttur_lakengami_0_v2001               | Estimated error (1 standard deviation) of the interpolated DEM                                                                                        |

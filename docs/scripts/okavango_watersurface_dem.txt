@@ -1,0 +1,7 @@
+/Volumes/karttur/oka-dem-fixed/dem_ptdata/uct_gps_h2o_94/uct_gps_h2o_94.shp,/Volumes/karttur/okavango/dem/oka_water/elev-pt-water_gps-uct_okaswamps_1994_v2001.shp
+
+/Volumes/karttur/oka-dem-fixed/dem_ptdata/uct_gps_h2o_95_tm/uct_gps_h2o_95_tm.shp,/Volumes/karttur/okavango/dem/oka_water/elev-pt-water_gps-uct_okaswamps_1995_v2001.shp
+
+/Volumes/karttur/oka-dem-fixed/dem_ptdata/uct_gps_h2o_96/uct_gps_h2o_96.shp,/Volumes/karttur/okavango/dem/oka_water/elev-pt-water_gps-uct_okaswamps_1996_v2001.shp
+
+/Volumes/karttur/oka-dem-fixed/dem_ptdata/uct_gps_h2o_98_tm/uct_gps_h2o_98_tm.shp,uct_gps_h2o_98_tm/Volumes/karttur/okavango/dem/oka_water/elev-pt-water_gps-uct_okaswamps_1998_v2001.shp

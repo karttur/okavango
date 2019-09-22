@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Blog
+title: Okavango articles and data
 excerpt: "Archive of articles about my Okavango studies."
 image: std-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
 search_omit: true
 ---
+
+Archive of Okavango studies that I have been involved in since my PostDoc period 1991-2001 at University of the Witwatersrand, Johannesburg, South Africa.
 
 <ul class="post-list">
 {% for post in site.categories.blog %}

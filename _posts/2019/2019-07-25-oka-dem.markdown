@@ -282,7 +282,7 @@ Table 13. Water surface elevation data for the Central parts of the Okavango Swa
 
 [GitHub repo with Elevation point data used as input for generating DEM](https://github.com/karttur/okavango/tree/gh-pages/docs/dem/input/).
 
-[GitHub repo with Elevation data covering the greater Okavango region](https://github.com/karttur/okavango/tree/gh-pages/docs/dem/okavango/).
+[GitHub repo with Elevation data covering the greater Okavango region](https://github.com/karttur/okavango/tree/gh-pages/docs/dem/okadem/).
 
 [GitHub repo with Elevation data covering palaeo Lake Ngami](https://github.com/karttur/okavango/tree/gh-pages/docs/dem/lakengami/).
 

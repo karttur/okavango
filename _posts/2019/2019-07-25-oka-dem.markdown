@@ -259,6 +259,10 @@ Table 12. Spatial data layers available for the Mkgadikgadi Ridge Region. All la
 
 The survey campaigns conducted by University of Cape Town (UCT) during 1994, 1995, 1996 and 1998 also included measurements of the elevation of surface water, table 13. The 1995 campaign was the most extensive. Using sites with overlapping elevations, all the UCT surface water level data were linearly transferred to represent the 1995 situation. The adjusted elevation data was then used for constructing a surface water table DEM for the Okavango wetlands, table 13.
 
+<figcaption>
+Table 13. Water surface elevation data for the Central parts of the Okavango Swamps.  All layers are available for download towards the end of this post, or you can click the Layer name to download each layer.
+</figcaption>
+
 | Layer name                                                                                                                         | Layer content                                       |
 |:-----------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
 | **Vector layers** (shape files)                                                                                                    |                                                     |
@@ -266,7 +270,7 @@ The survey campaigns conducted by University of Cape Town (UCT) during 1994, 199
 | [elev-pt-water_gps-uct_okaswamps_1995_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1995_v2001.zip)           | Water surface elevation from the UCT 1995 campaign. |
 | [elev-pt-water_gps-uct_okaswamps_1996_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1996_v2001.zip)           | Water surface elevation from the UCT 1996 campaign. |
 | [elev-pt-water_gps-uct_okaswamps_1998_v2001](../../docs/dem/watersurface/elev-pt-water_gps-uct_okaswamps_1998_v2001.zip)           | Water surface elevation from the UCT 1998 campaign. |
-| **Raster layer** (GeoTiff files)                                                                                                   |                                                     |
+| **Raster layers** (GeoTiff files)                                                                                                  |                                                     |
 | [dem-water-surface_karttur_okaswamp_1995_v2001](../../docs/dem/watersurface/dem-water-surface_karttur_okaswamp_1995_v2001.tif.zip) | DEM for the Okavango water table                    |
 
 ## Resources

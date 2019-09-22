@@ -13,4 +13,4 @@ The data as available here were organized in 2019. Details of the data organizat
 | **Raster layers** (GeoTiff files)       |                                                                    |
 | dem_karttur_okaswamps_0_v2001           | Geo-interpoalted DEM in 500 m spatial resolution                   |
 | dem-sd_karttur_okaswamps_0_v2001        | Estimated error (1 standard deviation)<br> of the interpolated DEM |
-| dem_karttur_ne-bw_2000_v2001            | Geo-interpoalted DEM over NV Botswana                              |
+| dem_karttur_ne-bw_2000_v2001            | Geo-interpoalted DEM over NW Botswana                              |

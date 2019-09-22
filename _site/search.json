@@ -11,14 +11,6 @@
   
     ,{
       "title"			: "Regional topography",
-      "link"			: "http://localhost:4000/blog/oka-dem_v2/",
-      "excerpt"		: "Creating a regional Digital Elevation Model for the Okavango Delta, Botswana"
-    }
-  
-
-  
-    ,{
-      "title"			: "Regional topography",
       "link"			: "http://localhost:4000/blog/oka-dem/",
       "excerpt"		: "Creating a regional Digital Elevation Model for the Okavango Delta, Botswana"
     }
@@ -36,7 +28,7 @@
     ,{
       "title"			: "Geophysiological regions",
       "link"			: "http://localhost:4000/blog/oka-geophysiology/",
-      "excerpt"		: "Geophysiological regions of the Okavango swammps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
+      "excerpt"		: "Geophysiological regions of the Okavango swamps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
     }
   
 

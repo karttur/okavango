@@ -4,12 +4,12 @@ This folder contains elevation point datasets of the Okavango region, Botswana. 
 
 Details on the elevation point data are available in the post [Regional topography](https://karttur.github.io/okavango/blog/oka-dem/).
 
-The data as available here were organized in 2019. Details of the data organizations are available in the post [Okavango spatial data organization](https://karttur.github.io/okavango/article/oka-datafix/). 
+The data as available here were organized in 2019. Details of the data organizations are available in the post [Okavango spatial data organization](https://karttur.github.io/okavango/article/oka-datafix/).
 
 | Dataset                                                      | Description                                                                       |
 |:-------------------------------------------------------------|:----------------------------------------------------------------------------------|
 | elev-pt_gps-grav-survey_botswana_2000_bw-geosurvey           | Gravity survey with differential GPS positioning<br>Geological Survey of Botswana |
-| elev-pt_beacons_botswana_0_bw-maps.zip                       | Trigonemetric beacons identified from official Botswana maps                      |
+| elev-pt_beacons_botswana_0_bw-maps                           | Trigonemetric beacons identified from official Botswana maps                      |
 | elev-pt-subreg_gps-grav-survey_okaswamps_2000_nw-drylands    | GPS surveyed elevations                                                           |
 | elev-pt-subreg_beacons_okaswamps_2000_nw-drylands            | Trigonometric beacon heights                                                      |
 | elev-pt-subreg_dcw_okaswamps_2000_nw-drylands                | Digital Chart of World heights                                                    |

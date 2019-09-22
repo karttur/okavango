@@ -3,7 +3,7 @@ layout: post
 title: Geophysiological regions
 modified: '2019-07-17 11:27'
 categories: blog
-excerpt: "Geophysiological regions of the Okavango swammps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
+excerpt: "Geophysiological regions of the Okavango swamps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
 tags:
   - Okavango
   - Geophysiological regions
@@ -26,13 +26,13 @@ The Okavango Delta is divided into four distinct geophysiological regions; the P
 Table 1. Geophysiological regions of the Okavango delta
 </figcaption>
 
-|  Geophysiological region  | Dominating wetland types |  Typical island/dryland types |
-|:---------------------|:----------------------:|:-------------------:|
-| **Panhandle** | meandering channels,<br>lakes, reed swamps<br> (_Papyrus, Phragmites_) | sand banks, grasslands |
-|  **Permanent swamp**  | channels, lakes, reed swamps<br> (_Papyrus, Phragmites, Miscanthus_) |  scrollbar & anthill islands<br> salt pans (island interiors) |
-| **Seasonal swamp** | channels, floodplains<br>(sedges and grasses) | inverted channel islands,<br> anthill islands, saltpan islands |
-| **Occasional flooded area** | flooded grasslands (wet meadows), salt pans | grasses and sedges |
-| **Dryland** |     -     |Savannah, dry forest<br> (_Acacia_, _Combretum_, _Mopane_)|
+| Geophysiological region     |                        Dominating wetland types                        |                  Typical island/dryland types                  |
+|:----------------------------|:----------------------------------------------------------------------:|:--------------------------------------------------------------:|
+| **Panhandle**               | meandering channels,<br>lakes, reed swamps<br> (_Papyrus, Phragmites_) |                     sand banks, grasslands                     |
+| **Permanent swamp**         |  channels, lakes, reed swamps<br> (_Papyrus, Phragmites, Miscanthus_)  |  scrollbar & anthill islands<br> salt pans (island interiors)  |
+| **Seasonal swamp**          |             channels, floodplains<br>(sedges and grasses)              | inverted channel islands,<br> anthill islands, saltpan islands |
+| **Occasional flooded area** |              flooded grasslands (wet meadows), salt pans               |                       grasses and sedges                       |
+| **Dryland**                 |                                   -                                    |   Savannah, dry forest<br> (_Acacia_, _Combretum_, _Mopane_)   |
 
 
 Using a combination of [coarse resolution satellite image time series of flooding](../oka-avhrr/) and a high resolution [Landsat composite](../oka-landsat/), we converted the Geophysiological regions in table 1 to spatial extents, figure 1. These regions were later used in several subsequent studies, including for [ecoregion classification](../oka-landcover/).

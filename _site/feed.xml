@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T14:57:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T20:26:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;../../images/oka-tiles_wrs2_okaswamps_0_0.jpg&quot; /&gt;
@@ -1504,6 +1504,10 @@ Table 8. Elevation data layers available for the larger Okavango region. All the
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/okaswamps/dem-sd_karttur_okaswamps_0_v2001.tif.zip&quot;&gt;dem-sd_karttur_okaswamps_0_v2001&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Estimated error (1 standard deviation)&lt;br /&gt; of the interpolated DEM&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;../../docs/dem/okaswamps/dem_karttur_ne-bw_2000_v2001.tif.zip&quot;&gt;dem_karttur_ne-bw_2000_v2001&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Geo-interpoalted DEM over NV Botswana&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

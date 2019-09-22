@@ -166,6 +166,7 @@ Table 8. Elevation data layers available for the larger Okavango region. All the
 | **Raster layers** (GeoTiff files)                                                                               |                                                                    |
 | [dem_karttur_okaswamps_0_v2001](../../docs/dem/okaswamps/dem_karttur_okaswamps_0_v2001.tif.zip)                 | Geo-interpoalted DEM in 500 m spatial resolution                   |
 | [dem-sd_karttur_okaswamps_0_v2001](../../docs/dem/okaswamps/dem-sd_karttur_okaswamps_0_v2001.tif.zip)           | Estimated error (1 standard deviation)<br> of the interpolated DEM |
+| [dem_karttur_ne-bw_2000_v2001](../../docs/dem/okaswamps/dem_karttur_ne-bw_2000_v2001.tif.zip)                   | Geo-interpoalted DEM over NV Botswana                              |
 
 ### The Okavango Alluvial Fan
 

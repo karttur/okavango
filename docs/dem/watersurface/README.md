@@ -4,6 +4,8 @@ This folder contains water surface elevation data for for the Okavango swamps, B
 
 Details on the elevation data are available in the post [Regional topography](https://karttur.github.io/okavango/blog/oka-dem/).
 
+The data as available here were organized in 2019. Details of the data organizations are available in the post [Okavango spatial data organization](https://karttur.github.io/okavango/article/oka-datafix/). 
+
 | Layer name                                    | Layer content                                       |
 |:----------------------------------------------|:----------------------------------------------------|
 | **Vector layers** (shape files)               |                                                     |

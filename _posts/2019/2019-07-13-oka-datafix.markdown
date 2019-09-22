@@ -396,6 +396,7 @@ When re-organzing the data in 2019 I could not find theoretical DEM for the perf
 For the Lake Ngami region a special DEM was created back in 2000, and re-organized in 2019. **Note** that during the 2019 re-organization I edited some of the imported layers and re-running the GDAL functions in the script will not generate identical layers.
 
 ```
+#Shoreline point data
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs "+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs" -t_srs EPSG:32734 elev-pt-palaeo-shore_karttur_lakengami_0_v2001.shp "/Volumes/karttur/oka-dem-ArcView/Ngami/ngami_shore_dem.shp"
 
 #Palaeo shoreline
@@ -408,11 +409,9 @@ For the Lake Ngami region a special DEM was created back in 2000, and re-organiz
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs "+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs" -t_srs EPSG:32734 isodist_karttur_lakengami_0_centreline.shp "/Volumes/karttur/oka-dem-ArcView/ngami/ngami_isodist.shp"
 
 #ngami_contours.shp:
-#CONTOUR LINES THAT FIT THE NGAMI DEM
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs "+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs" -t_srs EPSG:32734 elev-contours_karttur_lakengami_0_v2001.shp "/Volumes/karttur/oka-dem-fixed/dem_ngami/oka_topo_ngami_contours/oka_topo_ngami_contours.shp"
 
 #ngami_grav_dem.shp: The data used for generation Ngami DEM
-#Does not cover but that is as it is
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs "+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs" -t_srs EPSG:32734 elev-pt_gps_lakengami_1999_grav-survey.shp "/Volumes/karttur/oka-dem-ArcView/Ngami/ngami_grav_dem.shp"
 
 #ngami_beacon_dem

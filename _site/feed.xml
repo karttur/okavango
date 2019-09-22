@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T11:13:46+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T11:58:48+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;../../images/oka-tiles_wrs2_okaswamps_0_0.jpg&quot; /&gt;
@@ -2690,7 +2690,8 @@ Table 3. Okavango data layers of fault lines, river channels and elevation  regi
 
 &lt;p&gt;For the Lake Ngami region a special DEM was created back in 2000, and re-organized in 2019. &lt;strong&gt;Note&lt;/strong&gt; that during the 2019 re-organization I edited some of the imported layers and re-running the GDAL functions in the script will not generate identical layers.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt-palaeo-shore_karttur_lakengami_0_v2001.shp &quot;/Volumes/karttur/oka-dem-ArcView/Ngami/ngami_shore_dem.shp&quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Shoreline point data
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt-palaeo-shore_karttur_lakengami_0_v2001.shp &quot;/Volumes/karttur/oka-dem-ArcView/Ngami/ngami_shore_dem.shp&quot;
 
 #Palaeo shoreline
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 palaeo-shore-arc_karttur_lakengami_0_v2001.shp &quot;/Volumes/karttur/oka-dem-ArcView/Ngami paleo shoreline.shp&quot;
@@ -2702,11 +2703,9 @@ Table 3. Okavango data layers of fault lines, river channels and elevation  regi
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 isodist_karttur_lakengami_0_centreline.shp &quot;/Volumes/karttur/oka-dem-ArcView/ngami/ngami_isodist.shp&quot;
 
 #ngami_contours.shp:
-#CONTOUR LINES THAT FIT THE NGAMI DEM
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-contours_karttur_lakengami_0_v2001.shp &quot;/Volumes/karttur/oka-dem-fixed/dem_ngami/oka_topo_ngami_contours/oka_topo_ngami_contours.shp&quot;
 
 #ngami_grav_dem.shp: The data used for generation Ngami DEM
-#Does not cover but that is as it is
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt_gps_lakengami_1999_grav-survey.shp &quot;/Volumes/karttur/oka-dem-ArcView/Ngami/ngami_grav_dem.shp&quot;
 
 #ngami_beacon_dem

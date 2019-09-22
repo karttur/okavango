@@ -246,7 +246,7 @@ Table 12. Spatial data layers available for the Mkgadikgadi Ridge Region. All la
 | **Vector layers** (shape files) |               |
 
 | [elev-contours_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/elev-contours_karttur_mkgadiridge_0_v2001.zip) | Elevation contour lines for the Makgadikgadi Ridge region, <br> _disregarding_ any ridges (i.e. palaeo-shorelines)<br> or channels. |
-| [elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001.zip) | Elevation point data (best estimate and error)<br>  extracted from the generated DEM (GeoTiff)<br>for the base level of Makgadikgadi [id]: url "title"idge (palaeo-shoreline).  |
+| [elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001.zip) | Elevation point data (best estimate and error)<br>  extracted from the generated DEM (GeoTiff)<br>for the base level of Makgadikgadi Ridge (palaeo-shoreline).  |
 | [elev-pt_gps_mkgadiridge_1999_grav-survey](../../docs/dem/mkgadiridge/elev-pt_gps_mkgadiridge_1999_grav-survey.zip) | Input elevation data from a precision<br>gravity/GPS survey, used for the geo-interolation  |
 | [isodist_karttur_mkgadiridge_0_paleoshoreline](../../docs/dem/mkgadiridge/isodist_karttur_mkgadiridge_0_paleoshoreline.zip) | Distances along the palaeo shore line<br> for defining proximity (tilting)  |
 | [palaeo-shore-line_karttur_mkgadiridge_0_v2001](../../docs/dem/mkgadiridge/palaeo-shore-line_karttur_mkgadiridge_0_v2001.zip) | Makgadikgadi palaeo shorlines<br> interpreted from [Landsat image](../oka-landsat/)  |

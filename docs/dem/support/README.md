@@ -4,3 +4,9 @@ This folder contains spatial data layers of fault lines, river channels and elev
 region, Botswana. The data are projected to UTM 34 south (EPSG:32734).
 
 Details on the regionalization data are available in the post [Regional topography](https://karttur.github.io/okavango/blog/oka-dem/).
+
+| Layer name                                    | Layer content     |
+|:----------------------------------------------|:------------------|
+| fault-lines_karttur_okaswamps_0_v2001         | Fault lines       |
+| rivers-channels_karttur_okaswamps_0_digitized | River channels    |
+| elev-regions_karttur_okaswamps_0_4demcreate   | Elevation regions |

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T08:26:01+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T08:35:24+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;../../images/oka-tiles_wrs2_okaswamps_0_0.jpg&quot; /&gt;
@@ -1669,7 +1669,7 @@ Table 12. Spatial data layers available for the Mkgadikgadi Ridge Region. All la
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;../../docs/dem/mkgadiridge/elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001.zip&quot;&gt;elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Elevation point data (best estimate and error)&lt;br /&gt;  extracted from the generated DEM (GeoTiff)&lt;br /&gt;for the base level of Makgadikgadi [id]: url “title”idge (palaeo-shoreline).&lt;/td&gt;
+      &lt;td&gt;Elevation point data (best estimate and error)&lt;br /&gt;  extracted from the generated DEM (GeoTiff)&lt;br /&gt;for the base level of Makgadikgadi Ridge (palaeo-shoreline).&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;../../docs/dem/mkgadiridge/elev-pt_gps_mkgadiridge_1999_grav-survey.zip&quot;&gt;elev-pt_gps_mkgadiridge_1999_grav-survey&lt;/a&gt;&lt;/td&gt;

@@ -1,16 +1,22 @@
-# Elevation data for the greater Okavanga region, Botswana
+# Elevation data for Palaeo Lake Ngami, Botswana
 
-This folder contains elevation data for the greater Okavango region, Botswana. The data are projected to UTM 34 south (EPSG:32734).
+This folder contains elevation data for the palaeo Lake Ngami region, Botswana. The data are projected to UTM 34 south (EPSG:32734).
 
 Details on the elevation data are available in the post [Regional topography](https://karttur.github.io/okavango/blog/oka-dem/).
 
 The data as available here were organized in 2019. Details of the data organizations are available in the post [Okavango spatial data organization](https://karttur.github.io/okavango/article/oka-datafix/).
 
-| Layer name                              | Layer content                                                      |
-|:----------------------------------------|:-------------------------------------------------------------------|
-| **Vector layer** (shape file)           |                                                                    |
-| elev-contours_karttur_okaswamps_0_v2001 | Elevation contour lines for the larger Okavango area.              |
-| **Raster layers** (GeoTiff files)       |                                                                    |
-| dem_karttur_okaswamps_0_v2001           | Geo-interpoalted DEM in 500 m spatial resolution                   |
-| dem-sd_karttur_okaswamps_0_v2001        | Estimated error (1 standard deviation)<br> of the interpolated DEM |
-| dem_karttur_ne-bw_2000_v2001            | Geo-interpoalted DEM over NV Botswana                              |
+| Layer name                                     | Layer content                                                                                                                                         |
+|:-----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Vector layers** (shape files)                |                                                                                                                                                       |
+| centreline_karttur_lakengami_0_v2001           | The central axis of Lake Ngami<br> (for analysing tilting)                                                                                            |
+| elev-contours_karttur_lakengami_0_v2001        | Elevation contour lines for the Lake Ngami basin, <br> _disregarding_ any ridges (i.e. palaeo-shorelines)<br> or channels.                            |
+| elev-pt-palaeo-shore_karttur_lakengami_0_v2001 | Elevation point data (best estimate and error)<br>  extracted from the generated DEM (GeoTiff)<br>for the base level of Lake Ngami palaeo-shorelines. |
+| elev-pt_beacons_lakengami_0_frommap            | Input elevation data from existing beacons,<br> used for the geo-interolation                                                                         |
+| elev-pt_gps_lakengami_1999_grav-survey         | Input elevation data from a precision<br>gravity/GPS survey, used for the geo-interolation                                                            |
+| isodist_karttur_lakengami_0_centreline         | Distances along the central axis (see top row)<br> for defining proximity (tilting) along palaeo-shoreliens                                           |
+| palaeo-shore-line_karttur_lakengami_0_v2001    | Lake Ngami palaeo shorlines<br> interpreted from Landsat image                                                                                        |
+| **Raster layers** (GeoTiff files)              |                                                                                                                                                       |
+| dem_karttur_lakengami_0_v2001                  | Geo-interpoalted DEM in 500 m spatial resolution                                                                                                      |
+| dem-sd_karttur_lakengami_0_v2001               | Estimated error (1 standard deviation) of the interpolated DEM                                                                                        |
+| natcol_lt05_lakengami_199407_byte              | Natural color Landsat TM image                                                                                                                        |

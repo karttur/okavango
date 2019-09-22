@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T11:58:48+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-22T12:41:54+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Geo Imagine Developer</title><subtitle>script your own Earth</subtitle><entry><title type="html">Islands</title><link href="http://localhost:4000/blog/oka-islands/" rel="alternate" type="text/html" title="Islands" /><published>2019-08-08T11:27:00+02:00</published><updated>2019-08-08T11:27:00+02:00</updated><id>http://localhost:4000/blog/oka-islands</id><content type="html" xml:base="http://localhost:4000/blog/oka-islands/">&lt;p&gt;The Okavango swamps&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;../../images/oka-tiles_wrs2_okaswamps_0_0.jpg&quot; /&gt;
@@ -2733,10 +2733,12 @@ convert natcol_lt05_lakengami_199407_rgb-bands.tif +dither  -colors 255  natcol_
 
 &lt;h3 id=&quot;mababe-depression-regional-dem&quot;&gt;Mababe depression Regional DEM&lt;/h3&gt;
 
-&lt;p&gt;For the Mababe depression region a special DEM was created back in 2000. Run the script below to re-organize the Maababe Depression regional DEM.&lt;/p&gt;
+&lt;p&gt;For the Mababe depression region a special DEM was created back in 2000. Run the script below to re-organize the Mababe Depression regional DEM.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt-palaeo-shore_karttur_mababedepr_0_v2001.shp &quot;/Volumes/karttur/oka-dem-ArcView/mababe/mab_shore_dem.shp&quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Shoreline point data
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt-palaeo-shore_karttur_mababedepr_0_v2001.shp &quot;/Volumes/karttur/oka-dem-ArcView/mababe/mab_shore_dem.shp&quot;
 
+#Palaeo shoreline
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 palaeo-shore-arc_karttur_mababedepr_0_pos-from-lt05.shp &quot;/Volumes/karttur/oka-dem-ArcView/mababe/mab_shores.shp&quot;
 
 #mababe_centroid.shp: central axis
@@ -2745,13 +2747,16 @@ convert natcol_lt05_lakengami_199407_rgb-bands.tif +dither  -colors 255  natcol_
 #mab_isodist.shp: MABABE ISO distance along centroid axis
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 isodist_karttur_mababedepr_0_centreline.shp &quot;/Volumes/karttur/oka-dem-fixed/dem_mababe/mab_isodist/mab_isodist.shp&quot;
 
-# mababe_dem_contours.shp: This are the isohyeths from the DEM, without added other stuff
+#mababe_dem_contours.shp: This are the isohyeths from the DEM, without added other stuff
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-contours_karttur_mababedepr_0_v2001.shp &quot;/Volumes/karttur/oka-dem-fixed/dem_mababe/mababe_dem_contours/mababe_dem_contours.shp&quot;
 
+#mababe_grav_tm.shp: The data used for generation Ngami DEM
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt_gps_mababedepr_1999_grav-survey.shp &quot;/Volumes/karttur/oka-dem-ArcView/mababe/mababe_grav_tm.shp&quot;
 
+#DEM
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdalwarp -tr 500 500 -overwrite -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 /Volumes/karttur/oka-dem-ArcView/Mababe/mab_dem dem_karttur_mababedepr_0_v2001.tif
 
+#Estimated error from kriging interpolation
 /Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdalwarp -tr 500 500  -overwrite -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 /Volumes/karttur/oka-dem-ArcView/Mababe/mab_sd dem-sd_karttur_mababedepr_0_v2001.tif
 
 #Mababe pleasing image at 28 m  (from ecw - only source I can find)
@@ -2767,7 +2772,40 @@ convert natcol_lt05_mababedepr_199407_rgb-bands.tif +dither  -colors 255  natcol
 &lt;h3 id=&quot;mkgadikgadi-ridge-region&quot;&gt;Mkgadikgadi Ridge Region&lt;/h3&gt;
 
 &lt;p&gt;Also for the Mkgadikgadi Ridge Region a special DEM was created back in 2000.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Shoreline point data
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt-palaeo-shore_karttur_mkgadiridge_0_v2001.shp &quot;/Volumes/karttur/oka-dem-more/arcview/mkgadi_dem_points.shp&quot;
+
+#Palaeo shoreline
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 palaeo-shore-arc_karttur_mkgadiridge_0_pos-from-lt05.shp &quot;/Volumes/karttur/oka-dem-more/arcview/mkgadi_shore.shp&quot;
+
+#mkgadi_isodist.shp: Mkgadi ISO dist from Boteti
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 isodist_karttur_mkgadiridge_0_centreline.shp &quot;/Volumes/karttur/oka-dem-more/arcview/mkgadi_isodist.shp&quot;
+
+#mkgadi_contours.shp: This are the isohyeths from the DEM, without added other stuff
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-contours_karttur_mkgadiridge_0_v2001.shp &quot;/Volumes/karttur/oka-dem-more/arcvie/mkgadi_contours.shp&quot;
+
+#mababe_grav_tm.shp: The data used for generation Ngami DEM
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/ogr2ogr -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 elev-pt_gps_mkgadiridge_1999_grav-survey.shp &quot;/Volumes/karttur/oka-dem-more/arcview/grav_tm_mkgadi.shp&quot;
+
+#DEM
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdalwarp -tr 500 500 -overwrite -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 /Volumes/karttur/oka-dem-more/arcview/mkgadi_dem demtemp.tif
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdal_translate -a_ullr 830288.515 7816312.742 885794.137 7669802.090 demtemp.tif dem_karttur_mkgadiridge_0_pub.tif
+
+#the error raster, for some strange, but unknown, reason is one row and one column smaller and must be fitted.
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdalwarp -overwrite -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 /Volumes/karttur/oka-dem-more/arcview/mkgadi_err errtemp.tif
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdal_translate -a_ullr 830288.515 7815812.742 885294.137 7669802.090 errtemp.tif dem-sd_karttur_mkgadiridge_0_pub.tif
+
+#Mababe pleasing image at 28 m  (from ecw - only source I can find)
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdalwarp -overwrite -s_srs &quot;+proj=utm +zone=34 +south +ellps=clrk80 +units=m +no_defs&quot; -t_srs EPSG:32734 /Volumes/tgdata/old_CDs/okavango/okaCD1.1/OKAVANGO/Delta/landcover/graphics/mkgadikgadi_pleasing_tm.ecw natcol_lt05_mababedepr_199407_rgb-bands2.tif
+
+#Use ImageMagick to quantisize to 256 colors
+convert natcol_lt05_mababedepr_199407_rgb-bands2.tif +dither  -colors 255  natcol_lt05_mababedepr_199407_byte.png
+
+#Convert back to Geotiff tiff
+/Library/Frameworks/GDAL.framework/Versions/2.4/Programs/gdal_translate -a_srs EPSG:32734 -a_ullr 794240.0542575517902151 7960587.5265753660351038 880258.8149869333719835 7859056.2679800735786557 natcol_lt05_mababedepr_199407_byte.png natcol_lt05_mababedepr_199407_byte.tif
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h3 id=&quot;okavango-swamps-water-level-dem&quot;&gt;Okavango swamps water level DEM&lt;/h3&gt;
 
 &lt;p&gt;The source data for generating the water surface DEM, from surveys done by Univeristy of Capte Town, are imported with python function &lt;em&gt;CheckFixDBFwaterElevIni&lt;/em&gt;. A text file is used for defining source and destionation layers (&lt;span class=&quot;file&quot;&gt;dem_gen_water_shape_files.txt&lt;/span&gt;):&lt;/p&gt;

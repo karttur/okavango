@@ -6,7 +6,7 @@ image: std-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
 search_omit: true
 ---
 
-Archive of Okavango studies that I have been involved in since my PostDoc period 1991-2001 at University of the Witwatersrand, Johannesburg, South Africa.
+Archive of Okavango studies that I have been involved in since my PostDoc period 1991-2001 at University of the Witwatersrand, Johannesburg, South Africa. Each study is associated with spatial data that is available via links in the separate posts. 
 
 <ul class="post-list">
 {% for post in site.categories.blog %}

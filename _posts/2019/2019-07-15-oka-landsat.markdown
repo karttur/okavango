@@ -2,7 +2,7 @@
 layout: post
 title: Landsat satellite image data
 modified: '2019-07-15 11:27'
-categories: blog
+categories: okavango
 excerpt: "Landsat satellite image data that was used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa."
 tags:
   - Okavango

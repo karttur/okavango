@@ -2,7 +2,7 @@
 layout: post
 title: Okavango spatial data organization
 modified: '2019-07-13 11:27'
-categories: article
+categories: dataprep
 excerpt: "Re-organization of the Okavango spatial data created during my post-doc period at University of the Witwatersrand, Johannesburg, South Africa, 1999-2001."
 tags:
   - Okavango

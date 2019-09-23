@@ -3,47 +3,47 @@
   
     {
       "title"			: "Islands",
-      "link"			: "http://localhost:4000/blog/oka-islands/",
-      "excerpt"		: "Islands of the Okavango wetlands"
+      "link"			: "http://localhost:4000/okavango/oka-islands/",
+      "excerpt"		: "Channels, wetlands and islands in the Okavango Delta, Botswana, and their relation to hydrological and sedimentological processes"
     }
   
 
   
     ,{
       "title"			: "Regional topography",
-      "link"			: "http://localhost:4000/blog/oka-dem/",
-      "excerpt"		: "Creating a regional Digital Elevation Model for the Okavango Delta, Botswana"
+      "link"			: "http://localhost:4000/okavango/oka-dem/",
+      "excerpt"		: "The topography of the Okavango Delta, Botswana, and its tectonic and sedimentological implications"
     }
   
 
   
     ,{
       "title"			: "Ecoregion classification",
-      "link"			: "http://localhost:4000/blog/oka-landcover/",
-      "excerpt"		: "Ecoregion classification of the Okavango Delta, Botswana"
+      "link"			: "http://localhost:4000/okavango/oka-landcover/",
+      "excerpt"		: "Ecoregion classification in the Okavango Delta, Botswana from multitemporal remote sensing"
     }
   
 
   
     ,{
       "title"			: "Geophysiological regions",
-      "link"			: "http://localhost:4000/blog/oka-geophysiology/",
-      "excerpt"		: "Geophysiological regions of the Okavango swamps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
+      "link"			: "http://localhost:4000/okavango/oka-geophysiology/",
+      "excerpt"		: "Portraying the geophysiology of the Okavango Delta, Botswana"
     }
   
 
   
     ,{
       "title"			: "Flooding from AVHRR, ATSR and Landsat quicklook images",
-      "link"			: "http://localhost:4000/blog/oka-avhrr/",
-      "excerpt"		: "AVHRR, ATSR and Landsat low resolution image data used for creating the Okavango flooding maps during my postdoc period at University of the Witwatersrand in South Africa."
+      "link"			: "http://localhost:4000/okavango/oka-avhrr/",
+      "excerpt"		: "Flooding Patterns of the Okavango Wetland in Botswana between 1972 and 2000."
     }
   
 
   
     ,{
       "title"			: "Landsat satellite image data",
-      "link"			: "http://localhost:4000/blog/oka-landsat/",
+      "link"			: "http://localhost:4000/okavango/oka-landsat/",
       "excerpt"		: "Landsat satellite image data that was used for creating the Okavango maps during my postdoc period at University of the Witwatersrand in South Africa."
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "Okavango spatial data organization",
-      "link"			: "http://localhost:4000/article/oka-datafix/",
+      "link"			: "http://localhost:4000/dataprep/oka-datafix/",
       "excerpt"		: "Re-organization of the Okavango spatial data created during my post-doc period at University of the Witwatersrand, Johannesburg, South Africa, 1999-2001."
     }
   

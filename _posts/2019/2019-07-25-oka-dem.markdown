@@ -2,8 +2,9 @@
 layout: post
 title: Regional topography
 modified: '2019-07-18 11:27'
-categories: blog
-excerpt: "Creating a regional Digital Elevation Model for the Okavango Delta, Botswana"
+categories: okavango
+excerpt: "The topography of the Okavango Delta, Botswana, and its tectonic and sedimentological implications"
+articleurl: 'https://karttur.github.io/professional/journal/journal-sajg-oka-topography/'
 tags:
   - Okavango
   - topography

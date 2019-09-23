@@ -2,8 +2,9 @@
 layout: post
 title: Ecoregion classification
 modified: '2019-07-18 11:27'
-categories: blog
-excerpt: "Ecoregion classification of the Okavango Delta, Botswana"
+categories: okavango
+excerpt: "Ecoregion classification in the Okavango Delta, Botswana from multitemporal remote sensing"
+articleurl: 'https://karttur.github.io/professional/journal/journal-ijrs-oka-ecoregion/'
 tags:
   - Okavango
   - Landsat

@@ -2,8 +2,9 @@
 layout: post
 title: Geophysiological regions
 modified: '2019-07-17 11:27'
-categories: blog
-excerpt: "Geophysiological regions of the Okavango swamps, Botswana; maps and concepts developed during my postdoc period at University of the Witwatersrand in South Africa."
+categories: okavango
+excerpt: "Portraying the geophysiology of the Okavango Delta, Botswana"
+articleurl: 'https://karttur.github.io/professional/conference/conf-oka-geophysiology/'
 tags:
   - Okavango
   - Geophysiological regions

@@ -14,17 +14,23 @@ The Okavango Swamps in Botswana (figure 1) are composed of a mosaic of islands a
 </figure>
 
 I spent my Post Doc time (1999-2001) at University of the Witwatersrand (Johannesburg, South Africa) studying the Okavango swamps.
+This blog contains popular summaries of my studies and all the spatial data used for input as well as results.
 
 <h1>Okavango articles and data</h1>
 <ul class="post-list">
-{% for post in site.categories.blog limit:100 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% for post in site.categories.okavango reversed %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">
+    {{ post.title }}
+    {% if post.articleurl %} <a href="{{ post.articleurl }}"><span class="entry-date">link to original article</span></a>{% endif %}
+    {% if post.excerpt %}<span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
+
+  </article></li>
 {% endfor %}
 </ul>
 
 <h3>Documents on how I restructured the original data supplied with this blog</h3>
 <ul class="post-list">
-{% for post in site.categories.article limit:100 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% for post in site.categories.dataprep reversed %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>
